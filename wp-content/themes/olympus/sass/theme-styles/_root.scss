@@ -1,0 +1,16 @@
+
+
+
+html:root {
+  --primary-accent-color: #ff5e3a;
+  --primary-color-darken: #ff3407;
+
+  --secondary-accent-color: #38a9ff;
+  --secondary-color-darken: #0593ff;
+
+  --third-accent-color: #7c5ac2;
+  --body-font-color: #{inspect($body-font-color)};
+  --heading-font-color: #{inspect($heading-color)};
+
+  --icon-color: #{inspect($icon-color)};
+}

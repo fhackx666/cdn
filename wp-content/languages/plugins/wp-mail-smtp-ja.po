@@ -1,0 +1,581 @@
+# Translation of Plugins - WP Mail SMTP by WPForms - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP Mail SMTP by WPForms - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-03 00:10:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP Mail SMTP by WPForms - Stable (latest release)\n"
+
+#: src/Core.php:979
+msgid "Loading"
+msgstr "読み込み中"
+
+#: src/Admin/Pages/About.php:726
+msgid "Optionally configure settings at the network level or manage separately for each subsite"
+msgstr "オプションでネットワークレベルでの設定やサブサイトごとの個別管理が可能"
+
+#. translators: %s - WPMailSMTP.com Upgrade page URL.
+#: src/Admin/Education.php:69
+msgid "You’re using WP Mail SMTP Lite. To unlock more features consider <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">upgrading to Pro</a>."
+msgstr "WP Mail SMTP Lite を使用しています。さらに多くの機能のロックを解除するには、<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Pro へのアップグレード</a>を検討してください。"
+
+#: src/Admin/Pages/MiscTab.php:199
+msgid "Allow Usage Tracking"
+msgstr "使用状況の追跡を許可"
+
+#: src/Admin/Pages/MiscTab.php:207
+msgid "By allowing us to track usage data we can better help you because we know with which WordPress configurations, themes and plugins we should test."
+msgstr "使用データを追跡できるようにすることで、どの WordPress の設定、テーマ、プラグインをテストすべきかを知ることができるので、より適切にサポートできます。"
+
+#: src/Providers/PepipostAPI/Mailer.php:340
+msgid "Error"
+msgstr "エラー"
+
+#: src/Admin/Area.php:305
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: src/Admin/Area.php:299
+msgid "Heads up!"
+msgstr "注意 !"
+
+#: src/Admin/Review.php:144
+msgid "I already did"
+msgstr "すでにしました"
+
+#: src/Admin/Review.php:132
+msgid "No thanks"
+msgstr "結構です"
+
+#: src/Admin/Review.php:121
+msgid "Yes"
+msgstr "はい"
+
+#. translators: %s - The URL to the constants support article.
+#: src/Admin/Pages/MiscTab.php:94
+msgid "Please read this <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">support article</a> if you want to enable this option using constants."
+msgstr "定数を使用してこのオプションを有効にしたい場合は、この<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">サポート記事</a>をお読みください。"
+
+#: src/Providers/OptionsAbstract.php:359
+msgid "The password will be stored in plain text. For improved security, we highly recommend using your site's WordPress configuration file to set your password."
+msgstr "パスワードはプレーンテキストで保存されます。セキュリティを向上させるには、サイトの WordPress 設定ファイルを使ってパスワードを設定することを強くお勧めします。"
+
+#: src/Providers/OptionsAbstract.php:362
+msgid "Learn More"
+msgstr "もっと詳しく"
+
+#: src/Admin/Area.php:869
+msgid "Premium Support"
+msgstr "プレミアムサポート"
+
+#: src/Admin/Pages/SettingsTab.php:292
+msgid "Don't see what you're looking for?"
+msgstr "お探しのものが見つかりませんか？"
+
+#: src/SiteHealth.php:106
+msgid "Debug"
+msgstr "デバッグ"
+
+#: src/Admin/Pages/SettingsTab.php:294
+msgid "Suggest a Mailer"
+msgstr "メーラーを提案する"
+
+#: src/Admin/Area.php:402
+msgid "Download"
+msgstr "ダウンロード"
+
+#: src/Providers/AmazonSES/Options.php:25
+msgid "Amazon SES"
+msgstr "Amazon SES"
+
+#: src/Providers/Outlook/Options.php:25
+msgid "Outlook"
+msgstr "Outlook"
+
+#: src/Admin/Area.php:312
+msgid "Upgrade to Pro"
+msgstr "プロ版にアップグレード"
+
+#: src/Admin/Pages/MiscTab.php:150
+msgid "Check this if you would like to hide warnings alerting of email delivery errors."
+msgstr "メール配信エラーの警告を非表示にしたい場合はチェックしてください。"
+
+#: src/Admin/Pages/MiscTab.php:134
+msgid "Hide Email Delivery Errors"
+msgstr "メール配信エラーの非表示"
+
+#: src/Admin/Pages/MiscTab.php:166
+msgid "<strong>This is not recommended</strong> and should only be done for staging or development sites."
+msgstr "<strong>これは推奨されません</strong> ステージングサイトまたは開発サイトでのみおこなうべきです。"
+
+#: src/Admin/Pages/ControlTab.php:92
+msgid "Unlock Email Controls"
+msgstr "メールコントロールのロックを解除"
+
+#: src/Admin/Pages/ControlTab.php:95
+msgid "Email Controls allows you to granularly manage emails sent by WordPress. "
+msgstr "メールコントロールでは、WordPress で送信されたメールを細かく管理することができます。"
+
+#: src/Admin/Pages/ControlTab.php:48
+msgid "Comment Notifications"
+msgstr "コメント通知"
+
+#: src/Admin/Pages/ControlTab.php:49
+msgid "Manage emails sent when comments are published or awaiting moderation."
+msgstr "コメントが公開されたとき、またはモデレートを待っているときに送信される電子メールを管理します。"
+
+#: src/Admin/Pages/ControlTab.php:54
+msgid "Manage emails sent when site admin's account has been changed."
+msgstr "サイト管理者のアカウントが変更された際に送信されるメールを管理します。"
+
+#: src/Admin/Pages/ControlTab.php:53
+msgid "Site Admin Email Change Notifications"
+msgstr "サイト管理者変更メール通知"
+
+#: src/Admin/Pages/ControlTab.php:58
+msgid "User Change Notifications"
+msgstr "ユーザー変更通知"
+
+#: src/Admin/Pages/ControlTab.php:59
+msgid "Limit emails triggered by password changed/reset, email changed, and more."
+msgstr "パスワードの変更/リセット、メールの変更などによってトリガーされるメールを制限します。"
+
+#: src/Admin/Pages/ControlTab.php:63
+msgid "Personal Data Requests Notifications"
+msgstr "個人データ要求通知"
+
+#: src/Admin/Pages/ControlTab.php:64
+msgid "Control emails for data requests and data removal actions."
+msgstr "データ要求とデータ削除アクションのためのメールを制御します。"
+
+#: src/Admin/Pages/ControlTab.php:68
+msgid "Automatic Update Notifications"
+msgstr "自動更新通知"
+
+#: src/Admin/Pages/ControlTab.php:69
+msgid "Manage emails sent by the core automatic update process."
+msgstr "コアの自動更新処理で送信されるメールを管理します。"
+
+#: src/Admin/Pages/ControlTab.php:73
+msgid "New User Notifications"
+msgstr "新規ユーザー通知"
+
+#: src/Admin/Pages/ControlTab.php:74
+msgid "Toggle emails sent to both user and site administrator about new user accounts."
+msgstr "新規ユーザーアカウントに関するメールをユーザーとサイト管理者の両方に送信するかどうかを切り替えます。"
+
+#: src/Providers/Sendinblue/Options.php:62
+msgid "Sendinblue"
+msgstr "Sendinblue"
+
+#: src/Admin/Pages/LogsTab.php:53
+msgid "Unlock Email Logging"
+msgstr "メールロギングのロック解除"
+
+#: src/Admin/Pages/LogsTab.php:56
+msgid "Keep track of every email sent from your WordPress site with email logging. "
+msgstr "メールロギングでは、WordPress サイトから送信されたすべてのメールを追跡します。"
+
+#: src/Admin/Pages/LogsTab.php:57
+msgid "Troubleshoot sending issues, recover lost emails, and more!"
+msgstr "送信問題のトラブルシューティング、紛失したメールの復旧など！"
+
+#: src/Admin/Pages/About.php:334 src/Admin/Area.php:394 src/Admin/Area.php:401
+msgid "Activate"
+msgstr "有効化"
+
+#: src/Admin/Area.php:400
+msgid "Install and Activate"
+msgstr "インストールして有効化"
+
+#: src/Admin/Pages/SettingsTab.php:73
+msgid "License"
+msgstr "ライセンス"
+
+#: src/Admin/Pages/SettingsTab.php:84
+msgid "License Key"
+msgstr "ライセンスキー"
+
+#: src/Admin/Area.php:398
+msgid "Processing..."
+msgstr "処理中…"
+
+#: src/Admin/Pages/SettingsTab.php:76
+msgid "Your license key provides access to updates and support."
+msgstr "ライセンスキーを使用すると、アップデートやサポートへのアクセスが可能になります。"
+
+#: src/Admin/Pages/SettingsTab.php:369
+msgid "You're using WP Mail SMTP Lite - no license needed. Enjoy!"
+msgstr "WP Mail SMTP Lite を使用しています - ライセンスは必要ありません。楽しんでください。"
+
+#. translators: %s - WPMailSMTP.com upgrade URL.
+#: src/Admin/Pages/SettingsTab.php:375
+msgid "To unlock more features consider <strong><a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wp-mail-smtp-upgrade-modal\">upgrading to PRO</a></strong>."
+msgstr "より多くの機能を解除するには、<strong><a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wp-mail-smtp-upgrade-modal\">PRO へのアップグレード</a></strong>を検討してください。"
+
+#: src/Admin/Pages/SettingsTab.php:394
+msgid "As a valued WP Mail SMTP Lite user you receive <strong>$50 off</strong>, automatically applied at checkout!"
+msgstr "WP Mail SMTP Lite をご利用の方は、チェックアウト時に自動的に適用される<strong>50ドルの割引</strong>を受けられます！"
+
+#: src/Admin/Pages/SettingsTab.php:242
+msgid "If unchecked, bounce messages may be lost. Some providers may ignore this option."
+msgstr "チェックを外すと、バウンスメッセージが失われる可能性があります。 一部のプロバイダーは、このオプションを無視する場合があります。"
+
+#: src/Admin/Pages/TestTab.php:72
+msgid "Enter email address where test email will be sent."
+msgstr "テストメールを送信するメールアドレスを入力してください。"
+
+#: src/Admin/Pages/About.php:657
+msgid "Customer Support"
+msgstr "カスタマーサポート"
+
+#: src/Admin/Pages/About.php:569
+msgid "Feature"
+msgstr "おすすめ"
+
+#: src/Admin/Pages/About.php:439
+msgid "Plugin activated."
+msgstr "プラグインを有効化しました。"
+
+#: src/Admin/Pages/About.php:740
+msgid "Priority Support"
+msgstr "優先サポート"
+
+#. translators: %s - status HTML text.
+#: src/Admin/Pages/About.php:276
+msgid "Status: %s"
+msgstr "ステータス: %s"
+
+#: src/Admin/Pages/About.php:654 src/Admin/Pages/ControlTab.php:27
+msgid "Email Controls"
+msgstr "メールコントロール"
+
+#: src/Admin/Pages/Logs.php:48 src/Admin/Pages/About.php:653
+#: src/Admin/Pages/LogsTab.php:30 src/Admin/Area.php:222 src/Admin/Area.php:223
+msgid "Email Log"
+msgstr "メールログ"
+
+#. translators: %s - URL to SMTP documentation.
+#: src/Providers/SMTP/Options.php:29
+msgid "Use the SMTP details provided by your hosting provider or email service.<br><br>To see recommended settings for the popular services as well as troubleshooting tips, check out our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">SMTP documentation</a>."
+msgstr "ホスティングプロバイダまたは電子メールサービスが提供する SMTP の詳細を使用してください。<br><br>人気のあるサービスの推奨設定やトラブルシューティングのヒントについては、<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">SMTP documentation</a>を参照してください。"
+
+#: src/Admin/Pages/About.php:106 src/Admin/Area.php:232 src/Admin/Area.php:233
+msgid "About Us"
+msgstr "私たちについて"
+
+#: src/Admin/Pages/TestTab.php:534 src/Admin/Pages/TestTab.php:559
+#: src/Admin/Pages/TestTab.php:661
+msgid "This means your web server was unable to connect to the host server."
+msgstr "これは、Web サーバーがホストサーバーに接続できなかったことを意味します。"
+
+#: src/Providers/SMTPcom/Options.php:91 src/Providers/Sendgrid/Options.php:65
+#: src/Providers/PepipostAPI/Options.php:94
+#: src/Providers/Sendinblue/Options.php:96
+msgid "API Key"
+msgstr "API キー"
+
+#: src/Admin/Pages/SettingsTab.php:37
+msgid "General"
+msgstr "一般"
+
+#: src/Providers/OptionsAbstract.php:222
+msgid "None"
+msgstr "なし"
+
+#: src/Admin/Pages/SettingsTab.php:94
+msgid "Mail"
+msgstr "メール"
+
+#: src/Providers/OptionsAbstract.php:277 src/Providers/OptionsAbstract.php:299
+#: src/Admin/Pages/TestTab.php:87
+msgid "Off"
+msgstr "オフ"
+
+#: src/Admin/Pages/MiscTab.php:25
+msgid "Misc"
+msgstr "その他"
+
+#: src/Admin/Pages/About.php:323 src/Admin/Area.php:396
+msgid "Active"
+msgstr "有効"
+
+#: src/Admin/Pages/About.php:342
+msgid "Not Installed"
+msgstr "未インストール"
+
+#: src/Admin/Pages/SettingsTab.php:322
+msgid "Dismiss this notice"
+msgstr "この通知を非表示"
+
+#: src/SiteHealth.php:98
+msgid "Version"
+msgstr "バージョン"
+
+#: src/Providers/OptionsAbstract.php:231
+msgid "SSL"
+msgstr "SSL"
+
+#: src/Providers/OptionsAbstract.php:240
+msgid "TLS"
+msgstr "TLS"
+
+#: src/Providers/OptionsAbstract.php:321
+msgid "SMTP Password"
+msgstr "SMTP パスワード"
+
+#: src/Providers/OptionsAbstract.php:307
+msgid "SMTP Username"
+msgstr "SMTP ユーザー名"
+
+#: src/Providers/Mailgun/Options.php:133
+msgid "EU"
+msgstr "EU"
+
+#: src/Providers/Mailgun/Options.php:124
+msgid "US"
+msgstr "US"
+
+#: src/Providers/OptionsAbstract.php:276 src/Providers/OptionsAbstract.php:298
+#: src/Admin/Pages/TestTab.php:86
+msgid "On"
+msgstr "オン"
+
+#: src/Admin/Pages/TestTab.php:80
+msgid "HTML"
+msgstr "HTML"
+
+#: src/Admin/Pages/TestTab.php:66
+msgid "Send To"
+msgstr "送信先"
+
+#: src/Admin/Pages/TestTab.php:37
+msgid "Email Test"
+msgstr "メールテスト"
+
+#: src/Admin/Pages/MiscTab.php:181
+msgid "Uninstall WP Mail SMTP"
+msgstr "WP Mail SMTP をアンインストール"
+
+#: src/Admin/Pages/MiscTab.php:124
+msgid "Check this if you would like to hide plugin announcements and update details."
+msgstr "プラグインのアナウンスやアップデートの詳細を非表示にしたい場合にチェックしてください。"
+
+#: src/Admin/Pages/TestTab.php:114
+msgid "Send Email"
+msgstr "メールを送信"
+
+#: src/Providers/Mailgun/Options.php:25
+msgid "Mailgun"
+msgstr "Mailgun"
+
+#: src/Providers/Sendgrid/Options.php:26
+msgid "SendGrid"
+msgstr "SendGrid"
+
+#: src/Providers/SMTP/Options.php:25
+msgid "Other SMTP"
+msgstr "その他のSMTP"
+
+#: src/Admin/Pages/TestTab.php:684
+msgid "no"
+msgstr "いいえ"
+
+#: src/Admin/Pages/TestTab.php:1101
+msgid "Need support?"
+msgstr "サポートが必要ですか ?"
+
+#: src/Providers/Gmail/Options.php:80
+msgid "Client ID"
+msgstr "クライアント ID"
+
+#: src/Providers/Gmail/Options.php:95
+msgid "Client Secret"
+msgstr "クライアントシークレット"
+
+#: src/Providers/Mailgun/Options.php:89
+msgid "Domain Name"
+msgstr "ドメイン名"
+
+#: src/Providers/Mailgun/Options.php:114
+msgid "Region"
+msgstr "地域"
+
+#: src/Admin/PageAbstract.php:83 src/Admin/Area.php:304
+msgid "Save Settings"
+msgstr "設定を保存する"
+
+#. Author URI of the plugin
+msgid "https://wpforms.com/"
+msgstr "https://wpforms.com/"
+
+#: src/Admin/Pages/TestTab.php:576
+msgid "This means we were able to connect to your SMTP host, but were not able to proceed using the email/password in the settings."
+msgstr "これは、SMTP ホストに接続できましたが、設定のメール/パスワードを使用して続行できなかったことを意味します。"
+
+#: src/Admin/Pages/TestTab.php:577
+msgid "Typically this error is returned when the email or password is not correct or is not what the SMTP host is expecting."
+msgstr "通常、このエラーは、メールまたはパスワードが正しくない場合、または SMTP ホストが期待しているものと異なる場合に返されます。"
+
+#: src/Admin/Pages/TestTab.php:575
+msgid "Could not authenticate your SMTP account."
+msgstr "SMTP アカウントを認証できませんでした。"
+
+#: src/Admin/Pages/TestTab.php:563
+msgid "Contact your web hosting provider and inform them you are having issues making outbound connections."
+msgstr "ウェブホスティングプロバイダーに連絡して、アウトバウンド接続に問題があることを伝えてください。"
+
+#: src/Admin/Pages/TestTab.php:553
+msgid "Could not connect to your host."
+msgstr "ホストに接続できませんでした。"
+
+#: src/Admin/Pages/SettingsTab.php:135
+msgid "If you're using an email provider (Yahoo, Outlook.com, etc) this should be your email address for that account."
+msgstr "メールプロバイダ（Yahoo、Outlook.com など）を使用している場合は、そのアカウントのメールアドレスになります。"
+
+#: src/Admin/Pages/SettingsTab.php:138
+msgid "Please note that other plugins can change this, to prevent this use the setting below."
+msgstr "他のプラグインでも変更することができますので、これを防ぐために以下の設定を使用してください。"
+
+#: src/Admin/Pages/SettingsTab.php:158
+msgid "Force From Email"
+msgstr "このメールを強制使用"
+
+#: src/Admin/Pages/SettingsTab.php:173
+msgid "If checked, the From Email setting above will be used for all emails, ignoring values set by other plugins."
+msgstr "チェックを入れると、上記の「このメールを強制使用」設定は、他のプラグインで設定された値を無視して、すべてのメールに使用されます。"
+
+#: src/Admin/Pages/SettingsTab.php:209
+msgid "Force From Name"
+msgstr "この名前を強制使用"
+
+#: src/Admin/Pages/SettingsTab.php:195
+msgid "The name which emails are sent from."
+msgstr "メールの送信元の名前です。"
+
+#: src/Admin/Pages/SettingsTab.php:218
+msgid "If checked, the From Name setting above will be used for all emails, ignoring values set by other plugins."
+msgstr "チェックを入れると、上記の「この名前を強制使用」の設定は、他のプラグインで設定された値を無視して、すべてのメールに使用されます。"
+
+#: src/Admin/Pages/SettingsTab.php:241
+msgid "Return Path indicates where non-delivery receipts - or bounce messages - are to be sent."
+msgstr "Return-Path は、配信不能の受信（またはバウンスメッセージ）の送信先を示します。"
+
+#: src/Providers/OptionsAbstract.php:244
+msgid "For most servers TLS is the recommended option. If your SMTP provider offers both SSL and TLS options, we recommend using TLS."
+msgstr "ほとんどのサーバーでは TLS が推奨されています。SMTP プロバイダーが SSL と TLS の両方のオプションを提供している場合は、TLS の使用をお勧めします。"
+
+#: src/Providers/OptionsAbstract.php:266
+msgid "Auto TLS"
+msgstr "TLS 自動化"
+
+#: src/Providers/OptionsAbstract.php:280
+msgid "By default TLS encryption is automatically used if the server supports it, which is recommended. In some cases, due to server misconfigurations, this can cause issues and may need to be disabled."
+msgstr "デフォルトでは、サーバが TLS をサポートしていれば自動的に TLS 暗号化が使用されます。場合によっては、サーバの設定ミスにより問題が発生することがあり、これを無効にする必要があるかもしれません。"
+
+#: src/Providers/Mail/Options.php:37
+msgid "You currently have the native WordPress option selected. Please select any other Mailer option above to continue the setup."
+msgstr "現在 WordPress ネイティブオプションが選択されています。上記の他のメーラーオプションを選択して設定を続けてください。"
+
+#: src/Admin/Pages/SettingsTab.php:134
+msgid "The email address which emails are sent from."
+msgstr "メールの送信元となるメールアドレスです。"
+
+#: src/Admin/Pages/TestTab.php:90
+msgid "Send this email in HTML or in plain text format."
+msgstr "このメールを HTML またはプレーンテキスト形式で送信します。"
+
+#. translators: %1$s - WP.org link; %2$s - same WP.org link.
+#: src/Admin/Area.php:464
+msgid "Please rate <strong>WP Mail SMTP</strong> <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a> to help us spread the word. Thank you from the WP Mail SMTP team!"
+msgstr "<strong>WP Mail SMTP</strong> <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress.org</a> で <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> の評価をお願いします。WP Mail SMTP チームからの感謝の意を表します。"
+
+#: src/Admin/Pages/MiscTab.php:66
+msgid "Check this if you would like to stop sending all emails."
+msgstr "すべてのメールの送信を停止したい場合は、こちらにチェックを入れてください。"
+
+#: src/Admin/Pages/MiscTab.php:57
+msgid "Do Not Send"
+msgstr "送信しない"
+
+#: src/Admin/Pages/MiscTab.php:72
+msgid "Some plugins, like BuddyPress and Events Manager, are using their own email delivery solutions. By default, this option does not block their emails, as those plugins do not use default <code>wp_mail()</code> function to send emails."
+msgstr "BuddyPress や Event Manager のようないくつかのプラグインは、独自のメール配信ソリューションを使用しています。これらのプラグインは、メールを送信するためにデフォルトの <code>wp_mail()</code> 関数を使用していないので、デフォルトでは、このオプションは、それらのメールをブロックしません。"
+
+#: src/Admin/Pages/MiscTab.php:80
+msgid "You will need to consult with their documentation to switch them to use default WordPress email delivery."
+msgstr "WordPress のデフォルトのメール配信を使用するように切り替えるには、それらのドキュメントを参照する必要があります。"
+
+#: src/Admin/Pages/MiscTab.php:82
+msgid "Test emails are allowed to be sent, regardless of this option."
+msgstr "このオプションに関係なく、テストメールの送信は許可されています。"
+
+#: src/Admin/Pages/MiscTab.php:189
+msgid "Check this if you would like to remove ALL WP Mail SMTP data upon plugin deletion. All settings will be unrecoverable."
+msgstr "プラグイン削除時に全ての WP Mail SMTP データを削除したい場合にチェックしてください。すべての設定は復元できません。"
+
+#: src/Admin/Pages/MiscTab.php:115
+msgid "Hide Announcements"
+msgstr "お知らせを非表示"
+
+#: src/Providers/Mail/Options.php:25
+msgid "Default (none)"
+msgstr "デフォルト（無し）"
+
+#: src/Admin/Pages/SettingsTab.php:250
+msgid "Mailer"
+msgstr "メーラー"
+
+#: src/Admin/Area.php:214 src/Admin/Area.php:215 src/Admin/Area.php:862
+msgid "Settings"
+msgstr "設定"
+
+#: src/Providers/OptionsAbstract.php:212
+msgid "Encryption"
+msgstr "暗号化"
+
+#: src/Providers/OptionsAbstract.php:288
+msgid "Authentication"
+msgstr "認証"
+
+#: src/Admin/Pages/SettingsTab.php:228
+msgid "Return Path"
+msgstr "返信先"
+
+#: src/Providers/OptionsAbstract.php:198
+msgid "SMTP Host"
+msgstr "SMTP ホスト"
+
+#: src/Providers/OptionsAbstract.php:252
+msgid "SMTP Port"
+msgstr "SMTP ポート"
+
+#: src/Admin/Pages/SettingsTab.php:237
+msgid "Set the return-path to match the From Email"
+msgstr "送信元アドレスを返信先 (return-path) として設定"
+
+#: src/Providers/Gmail/Options.php:33
+msgid "Gmail"
+msgstr "Gmail"
+
+#. Plugin Name of the plugin
+#: src/SiteHealth.php:40 src/Admin/Area.php:203 src/Admin/Area.php:204
+msgid "WP Mail SMTP"
+msgstr "WP Mail SMTP"
+
+#: src/Admin/Pages/SettingsTab.php:101
+msgid "From Email"
+msgstr "送信元メールアドレス"
+
+#: src/Admin/Pages/SettingsTab.php:183
+msgid "From Name"
+msgstr "フォーム名"
+
+#: src/Admin/Pages/TestTab.php:59
+msgid "Send a Test Email"
+msgstr "テストメールを送信"

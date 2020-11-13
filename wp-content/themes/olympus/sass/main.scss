@@ -1,0 +1,60 @@
+
+@import "theme-styles/variables";
+
+//@import "assets/bootstrap";
+
+/*------------- #THEME-STYLES --------------*/
+
+@import "theme-styles/root";
+@import "theme-styles/mixins";
+@import "theme-styles/header";
+@import "theme-styles/footer";
+@import "theme-styles/section";
+@import "theme-styles/stunning-header";
+@import "theme-styles/bootstrap-customization";
+@import "theme-styles/primary-menu";
+@import "theme-styles/gutenberg-customization";
+@import "theme-styles/theme-unit-test";
+@import "theme-styles/elementor-customization";
+
+/*------------- #BLOCKS --------------*/
+
+@import "blocks/ui-block";
+@import "blocks/buttons";
+@import "blocks/vc_customization";
+@import "blocks/forms";
+@import "blocks/fixed-sidebar";
+@import "blocks/friends";
+@import "blocks/sliders";
+@import "blocks/pagination";
+@import "blocks/registration-login-form";
+@import "blocks/your-profile";
+@import "blocks/notification";
+@import "blocks/overlay-menu";
+@import "blocks/popup-windows";
+//@import "blocks/ol-lists";
+@import "blocks/friends-harmonic";
+@import "blocks/comment-list";
+@import "blocks/post-video";
+@import "blocks/video-player";
+@import "blocks/news-feed-form";
+@import "blocks/photo-gallery";
+@import "blocks/event-item";
+@import "blocks/blog-posts";
+@import "blocks/clients";
+@import "blocks/heading";
+@import "blocks/testimonials";
+@import "blocks/info-boxes";
+@import "blocks/counters";
+@import "blocks/teammembers";
+@import "blocks/socials";
+@import "blocks/contacts";
+@import "blocks/contact-form";
+@import "blocks/accordion-faqs";
+@import "blocks/search-help-result";
+@import "blocks/helper";
+@import "blocks/welcome-back";
+
+/*------------- #CUSTOMIZATION PLUGINS --------------*/
+
+@import "plugins/bps-customization";

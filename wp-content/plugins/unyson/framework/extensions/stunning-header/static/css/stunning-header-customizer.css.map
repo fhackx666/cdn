@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,2CAA4C;EACxC,OAAO,EAAE,eAAe",
+"sources": ["../scss/stunning-header-customizer.scss"],
+"names": [],
+"file": "stunning-header-customizer.css"
+}

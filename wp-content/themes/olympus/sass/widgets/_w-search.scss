@@ -1,0 +1,21 @@
+/*------------- #W-SEARCH--------------*/
+
+.w-search {
+  .form-group {
+	margin-bottom: 0;
+  }
+
+  input {
+	padding: 13px 15px;
+	font-size: 12px;
+  }
+
+  svg, i  {
+	font-size: 15px;
+	height: 15px;
+	width: 15px;
+  }
+}
+.widget{
+  .w-search input {border:none}
+}

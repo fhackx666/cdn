@@ -1,0 +1,301 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Sign in Form\n"
+"POT-Creation-Date: 2019-10-28 11:32+0200\n"
+"PO-Revision-Date: 2019-04-19 12:16+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sign-form.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-fw-extension-sign-form.php:56 views/form-login.php:67
+msgid "Register Now!"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:117 class-fw-extension-sign-form.php:168
+msgid "Login is required"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:121
+msgid "Password is required"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:172
+msgid "Email is required"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:176
+msgid "First name is required"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:180
+msgid "Last name is required"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:184
+msgid "Minimum password length is 6 characters"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:186
+msgid "Password and confirm password does not match"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:190
+msgid "Please, accept privacy policy"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:242
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: class-fw-extension-sign-form.php:244
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr ""
+
+#: class-fw-extension-sign-form.php:247
+msgid "<strong>ERROR</strong>: This username is already registered. Please choose another one."
+msgstr ""
+
+#: class-fw-extension-sign-form.php:252
+msgid "<strong>ERROR</strong>: Sorry, that username is not allowed."
+msgstr ""
+
+#: class-fw-extension-sign-form.php:258
+msgid "<strong>ERROR</strong>: Please type your email address."
+msgstr ""
+
+#: class-fw-extension-sign-form.php:260
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: class-fw-extension-sign-form.php:263
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr ""
+
+#: class-fw-extension-sign-form.php:268
+msgid "<strong>ERROR</strong>: Please type your password."
+msgstr ""
+
+#: class-fw-extension-sign-form.php:270
+msgid "<strong>ERROR</strong>: The minimum password length is 6 characters."
+msgstr ""
+
+#: class-fw-extension-sign-form.php:310
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you&hellip; please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:334
+msgid "Accept"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:334
+msgid "Privacy Policy"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:338
+msgid "Accept Privacy Policy"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:347 class-fw-extension-sign-form.php:369
+#: manifest.php:9
+msgid "Sign in Form"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:348 class-fw-extension-sign-form.php:370
+msgid "Crumina"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:374 options/settings.php:18
+msgid "Display"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:378 options/settings.php:20
+msgid "Both"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:379 options/settings.php:21
+#: views/form-login.php:55 views/form-register.php:74
+msgid "Login"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:380 options/settings.php:22
+msgid "Register"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:385 options/settings.php:28
+msgid "Redirect to"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:389 options/settings.php:30
+msgid "Current page"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:390 options/settings.php:31
+msgid "Profile page"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:391 options/settings.php:32
+msgid "Custom page"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:396 options/settings.php:41
+msgid "Redirect URL"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:405 options/settings.php:48
+msgid "Login form description"
+msgstr ""
+
+#: class-fw-extension-sign-form.php:408 options/settings.php:50
+#, php-format
+msgid "You can use [%s text=\"\" url=\"\"] shortcode"
+msgstr ""
+
+#: hooks.php:24 hooks.php:28 hooks.php:32
+msgid "ERROR"
+msgstr ""
+
+#: hooks.php:24
+msgid "Please enter a first name."
+msgstr ""
+
+#: hooks.php:28
+msgid "Please enter a last name."
+msgstr ""
+
+#: hooks.php:32
+msgid "GDPR is required."
+msgstr ""
+
+#: hooks.php:76 views/form-register.php:30
+msgid "First Name"
+msgstr ""
+
+#: hooks.php:80 views/form-register.php:35
+msgid "Last Name"
+msgstr ""
+
+#: manifest.php:10
+msgid "Sign in Form."
+msgstr ""
+
+#: options/settings.php:11
+msgid "Sign in Form (popup)"
+msgstr ""
+
+#: views/form-login.php:16
+msgid "Login to your Account"
+msgstr ""
+
+#: views/form-login.php:31
+msgid "Username"
+msgstr ""
+
+#: views/form-login.php:35 views/form-register.php:50
+msgid "Your Password"
+msgstr ""
+
+#: views/form-login.php:45
+msgid "Remember Me"
+msgstr ""
+
+#: views/form-login.php:51
+msgid "Forgot my Password"
+msgstr ""
+
+#: views/form-login.php:67
+msgid "Don't you have an account?"
+msgstr ""
+
+#: views/form-login.php:67
+msgid "it's really simple and you can start enjoying all the benefits!"
+msgstr ""
+
+#: views/form-register.php:15
+msgid "Register in"
+msgstr ""
+
+#: views/form-register.php:40
+msgid "Your Login"
+msgstr ""
+
+#: views/form-register.php:45
+msgid "Your Email"
+msgstr ""
+
+#: views/form-register.php:56
+msgid "Confirm Password"
+msgstr ""
+
+#: views/form-register.php:69
+msgid "I allow this website to collect and store submitted data."
+msgstr ""
+
+#: views/form-register.php:73
+msgid "Complete Registration!"
+msgstr ""
+
+#: views/vcard.php:41
+msgid "here's what you can do!"
+msgstr ""
+
+#: views/vcard.php:41
+msgid "Go to your Profile Page"
+msgstr ""
+
+#: views/vcard.php:41
+msgid "Welcome Back"
+msgstr ""
+
+#: views/vcard.php:46
+msgid "Activity"
+msgstr ""
+
+#: views/vcard.php:47
+msgid "Review your activity!"
+msgstr ""
+
+#: views/vcard.php:53
+msgid "Notifications"
+msgstr ""
+
+#: views/vcard.php:54
+msgid "Check out what's new!"
+msgstr ""
+
+#: views/vcard.php:60
+msgid "Forums"
+msgstr ""
+
+#: views/vcard.php:61
+msgid "Start a new discussion!"
+msgstr ""
+
+#: views/vcard.php:67
+msgid "Settings"
+msgstr ""
+
+#: views/vcard.php:68
+msgid "Manage your preferences!"
+msgstr ""
+
+#: views/form.php:51
+msgid "Login"
+msgstr ""
+
+#: views/form.php:60
+msgid "Registration"
+msgstr ""
+

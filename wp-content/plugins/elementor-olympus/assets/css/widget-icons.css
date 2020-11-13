@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'crum-el-widgets';
+  src:  url('../fonts/crum-el-widgets.eot?xscm1n');
+  src:  url('../fonts/crum-el-widgets.eot?xscm1n#iefix') format('embedded-opentype'),
+    url('../fonts/crum-el-widgets.ttf?xscm1n') format('truetype'),
+    url('../fonts/crum-el-widgets.woff?xscm1n') format('woff'),
+    url('../fonts/crum-el-widgets.svg?xscm1n#crum-el-widgets') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="crum-el-w-"], [class*=" crum-el-w-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'crum-el-widgets' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.crum-el-w-accordion:before {
+  content: "\e900";
+}
+.crum-el-w-address-block:before {
+  content: "\e901";
+}
+.crum-el-w-animated-svg:before {
+  content: "\e902";
+}
+.crum-el-w-button:before {
+  content: "\e903";
+}
+.crum-el-w-call-to-action:before {
+  content: "\e904";
+}
+.crum-el-w-chart-JS-module:before {
+  content: "\e905";
+}
+.crum-el-w-clients-slider:before {
+  content: "\e906";
+}
+.crum-el-w-counter-box:before {
+  content: "\e907";
+}
+.crum-el-w-dropcaps:before {
+  content: "\e908";
+}
+.crum-el-w-featured-box:before {
+  content: "\e909";
+}
+.crum-el-w-form:before {
+  content: "\e90a";
+}
+.crum-el-w-icon:before {
+  content: "\e90b";
+}
+.crum-el-w-map:before {
+  content: "\e90c";
+}
+.crum-el-w-pie-chart:before {
+  content: "\e90d";
+}
+.crum-el-w-portfolio-grid:before {
+  content: "\e90e";
+}
+.crum-el-w-post-portfolio-carousel-with-image:before {
+  content: "\e90f";
+}
+.crum-el-w-post-portfolio-carousel-with-text:before {
+  content: "\e910";
+}
+.crum-el-w-pricing-box:before {
+  content: "\e911";
+}
+.crum-el-w-pricing-table:before {
+  content: "\e912";
+}
+.crum-el-w-progress-bar:before {
+  content: "\e913";
+}
+.crum-el-w-promo-block:before {
+  content: "\e914";
+}
+.crum-el-w-share-page-buttons:before {
+  content: "\e915";
+}
+.crum-el-w-shifted-image:before {
+  content: "\e916";
+}
+.crum-el-w-single-image:before {
+  content: "\e917";
+}
+.crum-el-w-slider:before {
+  content: "\e918";
+}
+.crum-el-w-styled-ul-list:before {
+  content: "\e919";
+}
+.crum-el-w-team-member:before {
+  content: "\e91a";
+}
+.crum-el-w-testimonial-slider:before {
+  content: "\e91b";
+}
+.crum-el-w-testimonial:before {
+  content: "\e91c";
+}
+.crum-el-w-timeline-slider:before {
+  content: "\e91d";
+}
+.crum-el-w-title:before {
+  content: "\e91e";
+}
+.crum-el-w-triple-image:before {
+  content: "\e91f";
+}
+.crum-el-w-video-player:before {
+  content: "\e920";
+}

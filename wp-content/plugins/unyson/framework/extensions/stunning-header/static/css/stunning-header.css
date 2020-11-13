@@ -1,0 +1,67 @@
+/*------------- #STUNNING-HEADER --------------*/
+.crumina-stunning-header {
+  position: relative;
+  padding: 40px 0; }
+  .crumina-stunning-header .stunning-header-content-wrap {
+    position: relative;
+    z-index: 5; }
+
+.stunning-content-item > *:last-child {
+  margin-bottom: 0; }
+.stunning-content-item + .stunning-content-item {
+  margin-top: 2em; }
+
+.stunning-header-img-bottom {
+  position: relative;
+  z-index: 5;
+  margin-top: 2em; }
+
+.stunning-header--content-center .stunning-header-content-wrap {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto; }
+.stunning-header--content-center .stunning-header-img-bottom {
+  text-align: center; }
+
+.stunning-header--content-right .stunning-header-content-wrap {
+  text-align: right; }
+.stunning-header--content-right .stunning-header-img-bottom {
+  text-align: right; }
+
+.crumina-heading-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-position: center; }
+
+.crumina-stunning-header--with-animation .crumina-heading-background {
+  background: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x; }
+.crumina-stunning-header--with-animation[data-animate-type="fixed"] .crumina-heading-background {
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+#stunning-header.crumina-stunning-header.has-img-bottom {
+  padding-bottom: 0;
+}
+
+/*# sourceMappingURL=stunning-header.css.map */
+
+
+/*================= Responsive Mode ============*/
+
+@media (max-width: 1024px) {
+  .stunning-header--content-center .stunning-header-content-wrap {
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #stunning-header {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+}

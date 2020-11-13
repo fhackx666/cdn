@@ -1,0 +1,53 @@
+/*------------- #STUNNING-HEADER --------------*/
+
+.bg-primary-opacity {
+  background-color: rgba($orange, 0.95);
+}
+
+.bg-purple-dark-opacity {
+  background-color: rgba($purple-dark, 0.95);
+}
+
+.breadcrumbs {
+  padding-left: 0;
+}
+
+.breadcrumbs-item {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 6px;
+
+  &:first-child {
+	margin-left: 0;
+	margin-right: 6px;
+  }
+
+  a {
+	opacity: .7;
+
+	&:hover {
+	  opacity: 1;
+	}
+  }
+
+  &.active {
+	span {
+	  font-weight: 700;
+	}
+  }
+
+  .icon {
+	margin-right: 6px;
+  }
+
+  &:last-child {
+	.icon {
+	  display: none;
+	}
+  }
+}
+
+
+/*================= Responsive Mode ============*/
+
+

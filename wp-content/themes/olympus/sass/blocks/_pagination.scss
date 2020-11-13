@@ -1,0 +1,78 @@
+/*------------- #PAGINATION --------------*/
+
+
+.pagination {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  .page-item {
+	font-size: 12px;
+	font-weight: 700;
+	padding: 0 4px;
+  }
+
+  .page-link {
+	border-radius: .25rem;
+	color: #515365;
+	color: var(--heading-font-color);
+
+	&.active {
+	  background-color: $primary-color;
+	  border-color: $primary-color;
+	  background-color: var(--primary-accent-color);
+	  border-color: var(--primary-accent-color);
+	  color: $white-color;
+	}
+
+	&:focus, &:hover {
+	  border-color: $primary-color;
+	  border-color: var(--primary-accent-color);
+	}
+
+	&:hover {
+	  color: $white-color;
+	}
+  }
+}
+
+.page-links {
+  margin: 15px 0;
+  clear: both;
+
+  a {
+	display: inline-block;
+	padding: .2rem .5rem;
+	line-height: 1.25;
+	color: #515365;
+	color: var(--heading-font-color);
+	background-color: #fff;
+	border: 1px solid #e6ecf5;
+	margin-left: 5px;
+	border-radius: 3px;
+
+	&:focus, &:hover {
+	  border-color: $primary-color;
+	  background-color: $primary-color;
+	  border-color: var(--primary-accent-color);
+	  background-color: var(--primary-accent-color);
+	  color: $white-color;
+	}
+  }
+
+  span {
+	display: inline-block;
+	padding: .2rem .5rem;
+	line-height: 1.25;
+	border: 1px solid $primary-color;
+	border: 1px solid var(--primary-accent-color);
+	margin-left: 5px;
+	border-radius: 3px;
+	background-color: $primary-color;
+	background-color: var(--primary-accent-color);
+	color: $white-color;
+
+	&:hover {
+	  color: $white-color;
+	}
+  }
+}

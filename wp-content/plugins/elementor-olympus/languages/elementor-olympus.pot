@@ -1,0 +1,1204 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Elementor Olympus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-05 08:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.2.4"
+
+#. 1: Plugin name 2: Elementor
+#: elementor-olympus.php:183
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. 1: Plugin name 2: Elementor 3: Required Elementor version
+#. 1: Plugin name 2: PHP 3: Required PHP version
+#: elementor-olympus.php:205 elementor-olympus.php:228
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: widgets/helpers.php:48
+msgid "(no title)"
+msgstr ""
+
+#: widgets/title.php:84
+msgid "Add class name for title tag only"
+msgstr ""
+
+#: widgets/title.php:91
+msgid "Add inline link?"
+msgstr ""
+
+#: widgets/info_box.php:115 widgets/promo_block.php:77
+msgid "Add link to button"
+msgstr ""
+
+#: widgets/call_to_action.php:92
+msgid "Add link to button."
+msgstr ""
+
+#: widgets/icon.php:62
+msgid "Add link to the icon"
+msgstr ""
+
+#: widgets/contacts.php:57
+msgid "Add link to title text."
+msgstr ""
+
+#: widgets/title.php:106
+msgid "Add link with title text"
+msgstr ""
+
+#: widgets/call_to_action.php:80
+msgid "Add name to button."
+msgstr ""
+
+#: widgets/button.php:226
+msgid "Add on-click event for button"
+msgstr ""
+
+#: widgets/button.php:210 widgets/icon.php:74
+msgid ""
+"Add your relative URL. Each URL contains link, anchor text and target "
+"attributes."
+msgstr ""
+
+#: widgets/pie_chart.php:97
+msgid "Additional link after description"
+msgstr ""
+
+#: widgets/title.php:93
+msgid "Additional text with link on one line with title text"
+msgstr ""
+
+#: widgets/contacts.php:10 widgets/contacts.php:27
+msgid "Address block"
+msgstr ""
+
+#: widgets/pricing_table.php:175
+msgid "Always zoomed"
+msgstr ""
+
+#: widgets/maps.php:57
+msgid "API KEY for google maps service"
+msgstr ""
+
+#: widgets/pricing_table.php:91
+msgid "Atributes"
+msgstr ""
+
+#: widgets/image.php:39
+msgid "Attached image"
+msgstr ""
+
+#: widgets/team.php:39
+msgid "Avatar"
+msgstr ""
+
+#: widgets/promo_block.php:270
+msgid "Background"
+msgstr ""
+
+#: widgets/button.php:274 widgets/dropcaps.php:88 widgets/icon.php:169
+#: widgets/pricing_table.php:166
+msgid "Background color"
+msgstr ""
+
+#: widgets/button.php:330
+msgid "Background color on hover"
+msgstr ""
+
+#: widgets/dropcaps.php:45
+msgid "Base dropcap style"
+msgstr ""
+
+#: widgets/dropcaps.php:37
+msgid "Bla-bla-bla..."
+msgstr ""
+
+#: widgets/button.php:121 widgets/info_box.php:154 widgets/promo_block.php:116
+msgid "black"
+msgstr ""
+
+#: includes/conditional-functions.php:26
+msgid "Blue"
+msgstr ""
+
+#: widgets/button.php:124 widgets/info_box.php:157 widgets/promo_block.php:119
+msgid "blue"
+msgstr ""
+
+#: widgets/button.php:144 widgets/button.php:304 widgets/contacts.php:288
+#: widgets/icon.php:188 widgets/promo_block.php:289
+msgid "Border"
+msgstr ""
+
+#: widgets/button.php:349 widgets/team.php:136
+msgid "Border on hover"
+msgstr ""
+
+#: widgets/team.php:127
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/conditional-functions.php:28
+msgid "Breez"
+msgstr ""
+
+#: includes/conditional-functions.php:33
+msgid "Brown"
+msgstr ""
+
+#: widgets/button.php:130 widgets/info_box.php:163 widgets/promo_block.php:125
+msgid "brown"
+msgstr ""
+
+#: widgets/button.php:12 widgets/button.php:31 widgets/button.php:247
+#: widgets/call_to_action.php:79
+msgid "Button"
+msgstr ""
+
+#: widgets/button.php:116
+msgid "Button color"
+msgstr ""
+
+#: widgets/button.php:233
+msgid "Button ID attribute"
+msgstr ""
+
+#: widgets/button.php:100 widgets/call_to_action.php:116
+#: widgets/info_box.php:178 widgets/info_box.php:180
+#: widgets/promo_block.php:139 widgets/promo_block.php:141
+msgid "Button size"
+msgstr ""
+
+#: widgets/pricing_table.php:148
+msgid "Button text"
+msgstr ""
+
+#: widgets/info_box.php:113 widgets/promo_block.php:75
+msgid "Button URL"
+msgstr ""
+
+#: widgets/call_to_action.php:91
+msgid "Button URL (Link)"
+msgstr ""
+
+#: widgets/info_box.php:197 widgets/promo_block.php:157
+msgid "Button with border and tranparent background"
+msgstr ""
+
+#: widgets/call_to_action.php:134
+msgid "Button with border and transparent background"
+msgstr ""
+
+#: widgets/call_to_action.php:10 widgets/call_to_action.php:27
+msgid "Call To Action"
+msgstr ""
+
+#: widgets/call_to_action.php:38
+msgid "Center"
+msgstr ""
+
+#: widgets/title.php:149
+msgid "Centered"
+msgstr ""
+
+#: widgets/helpers.php:66
+msgid "change this Slider"
+msgstr ""
+
+#: widgets/dropcaps.php:116
+msgid "Character border"
+msgstr ""
+
+#: widgets/dropcaps.php:70
+msgid "Character color"
+msgstr ""
+
+#: widgets/dropcaps.php:107
+msgid "Character typography"
+msgstr ""
+
+#: widgets/counter.php:66 widgets/team.php:100
+msgid "Choose an icon to display"
+msgstr ""
+
+#: widgets/pricing_table.php:76
+msgid "Choose icon to display"
+msgstr ""
+
+#: widgets/pie_chart.php:124
+msgid "Circle color finish"
+msgstr ""
+
+#: widgets/pie_chart.php:110
+msgid "Circle color start"
+msgstr ""
+
+#: widgets/client_slider.php:205
+msgid "Client logo"
+msgstr ""
+
+#: widgets/client_slider.php:12
+msgid "Client slider"
+msgstr ""
+
+#: widgets/call_to_action.php:103 widgets/chartjs.php:101
+#: widgets/info_box.php:150 widgets/promo_block.php:112
+#: widgets/promo_block.php:178 widgets/promo_block.php:224
+msgid "Color"
+msgstr ""
+
+#: widgets/pie_chart.php:112 widgets/pie_chart.php:126
+msgid "Color of the circle bar gradient"
+msgstr ""
+
+#: widgets/promo_block.php:196 widgets/promo_block.php:242
+msgid "Color on hover"
+msgstr ""
+
+#: widgets/pricing_table.php:27 widgets/title.php:31
+msgid "Content"
+msgstr ""
+
+#: widgets/image.php:57 widgets/title.php:143
+msgid "Content align"
+msgstr ""
+
+#: widgets/counter.php:32 widgets/counter.php:122
+msgid "Counter"
+msgstr ""
+
+#: widgets/counter.php:12
+msgid "Counter box"
+msgstr ""
+
+#: widgets/helpers.php:92
+msgid "create a new Slider"
+msgstr ""
+
+#: widgets/pricing_table.php:111
+msgid "Currency"
+msgstr ""
+
+#: widgets/contacts.php:75
+msgid "Custom class"
+msgstr ""
+
+#: widgets/client_slider.php:216 widgets/team.php:65
+msgid "Custom link"
+msgstr ""
+
+#: widgets/button.php:118
+msgid "Customize button color as you like"
+msgstr ""
+
+#: widgets/button.php:102
+msgid "Customize button size as you like"
+msgstr ""
+
+#: includes/conditional-functions.php:24
+msgid "Dark"
+msgstr ""
+
+#: includes/conditional-functions.php:38
+msgid "Dark blue"
+msgstr ""
+
+#: widgets/button.php:135 widgets/info_box.php:168 widgets/promo_block.php:130
+msgid "dark blue"
+msgstr ""
+
+#: includes/conditional-functions.php:32
+msgid "Dark gray"
+msgstr ""
+
+#: widgets/button.php:129 widgets/info_box.php:162 widgets/promo_block.php:124
+msgid "dark gray"
+msgstr ""
+
+#: widgets/title.php:227
+msgid "Decoration color"
+msgstr ""
+
+#: widgets/call_to_action.php:58 widgets/info_box.php:66
+#: widgets/pie_chart.php:87 widgets/promo_block.php:66
+msgid "Description"
+msgstr ""
+
+#: widgets/maps.php:108
+msgid "Disable zoom on scroll"
+msgstr ""
+
+#: widgets/pie_chart.php:64
+msgid "Display an icon instead the number?"
+msgstr ""
+
+#: widgets/pricing_table.php:140
+msgid "Display button"
+msgstr ""
+
+#: widgets/call_to_action.php:67
+msgid "Display button in form."
+msgstr ""
+
+#: widgets/counter.php:56
+msgid "Display icon in box counter?"
+msgstr ""
+
+#: widgets/counter.php:55
+msgid "Display Icon?"
+msgstr ""
+
+#: widgets/info_box.php:139 widgets/promo_block.php:101
+msgid "Display link as button"
+msgstr ""
+
+#: widgets/icon.php:40
+msgid "Display single icon"
+msgstr ""
+
+#: widgets/helpers.php:14
+msgid "Display theme slider"
+msgstr ""
+
+#: widgets/info_box.php:38
+msgid "Displays feature boxes style"
+msgstr ""
+
+#: widgets/pie_chart.php:54
+msgid "Drag slider to select the percentage number displayed"
+msgstr ""
+
+#: widgets/dropcaps.php:143
+msgid "Dropcap: Text not found"
+msgstr ""
+
+#: widgets/dropcaps.php:26 widgets/dropcaps.php:62
+msgid "Dropcaps"
+msgstr ""
+
+#: widgets/dropcaps.php:10
+msgid "dropcaps"
+msgstr ""
+
+#: elementor-olympus.php:185 elementor-olympus.php:207
+msgid "Elementor"
+msgstr ""
+
+#. Name of the plugin
+#: elementor-olympus.php:184 elementor-olympus.php:206
+#: elementor-olympus.php:229
+msgid "Elementor Olympus"
+msgstr ""
+
+#: widgets/contacts.php:76
+msgid "Enter extra custom class"
+msgstr ""
+
+#: widgets/contacts.php:66
+msgid "Enter subtitle for block"
+msgstr ""
+
+#: widgets/chartjs.php:79
+msgid "Enter targeted value"
+msgstr ""
+
+#: widgets/chartjs.php:70
+msgid "Enter text used as title of the bar"
+msgstr ""
+
+#: widgets/image.php:50
+msgid "Enter title (Note: It is located above the content)."
+msgstr ""
+
+#: widgets/icon.php:52
+msgid "Enter title (Note: It is located after icon)."
+msgstr ""
+
+#: widgets/contacts.php:47 widgets/promo_block.php:58
+msgid "Enter title for block"
+msgstr ""
+
+#: widgets/call_to_action.php:50
+msgid "Enter title for form."
+msgstr ""
+
+#: widgets/maps.php:41
+msgid "Extened options section for show javascript Google map"
+msgstr ""
+
+#: widgets/call_to_action.php:149
+msgid "Extra class"
+msgstr ""
+
+#: widgets/maps.php:50
+#, php-format
+msgid ""
+"Go to <a href=\"%s\" target=_blank>Google Maps</a> and search your Location. "
+"Click on menu near search text => Share or embed map => Embed map. Next copy "
+"iframe to this field"
+msgstr ""
+
+#: widgets/maps.php:59
+#, php-format
+msgid "Go to <a href=\"%s\">Instruction to create API key</a>"
+msgstr ""
+
+#: widgets/maps.php:12
+msgid "Google maps"
+msgstr ""
+
+#: includes/conditional-functions.php:25
+msgid "Gray"
+msgstr ""
+
+#: widgets/button.php:123 widgets/info_box.php:156 widgets/promo_block.php:118
+msgid "gray"
+msgstr ""
+
+#: includes/conditional-functions.php:31
+msgid "Green"
+msgstr ""
+
+#: widgets/button.php:128 widgets/info_box.php:161 widgets/promo_block.php:123
+msgid "green"
+msgstr ""
+
+#: widgets/contacts.php:262
+msgid "Height"
+msgstr ""
+
+#: widgets/chartjs.php:56
+msgid "Hide labels?"
+msgstr ""
+
+#: widgets/button.php:183
+msgid "How to arange an button?"
+msgstr ""
+
+#: widgets/button.php:77
+msgid "How to arange an icon?"
+msgstr ""
+
+#: widgets/button.php:172
+msgid "How to arange semicircle?"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://elementor.com/"
+msgstr ""
+
+#: widgets/button.php:211 widgets/client_slider.php:218 widgets/icon.php:76
+#: widgets/pricing_table.php:159 widgets/team.php:67 widgets/title.php:107
+msgid "https://your-link.com"
+msgstr ""
+
+#: widgets/team.php:84
+msgid "https://your-profile.com"
+msgstr ""
+
+#: widgets/maps.php:100
+msgid "Hubrid"
+msgstr ""
+
+#: widgets/button.php:61 widgets/icon.php:11 widgets/icon.php:30
+#: widgets/icon.php:38 widgets/icon.php:95 widgets/info_box.php:79
+#: widgets/pricing_table.php:57
+msgid "Icon"
+msgstr ""
+
+#: widgets/counter.php:205
+msgid "Icon border"
+msgstr ""
+
+#: widgets/icon.php:104 widgets/info_box.php:281
+msgid "Icon color"
+msgstr ""
+
+#: widgets/icon.php:122
+msgid "Icon color on hover"
+msgstr ""
+
+#: widgets/icon.php:141
+msgid "Icon typography"
+msgstr ""
+
+#: widgets/call_to_action.php:150
+msgid ""
+"If you wish to style a particular content element differently, please add a "
+"class name to this field and refer to it in your custom CSS file."
+msgstr ""
+
+#: widgets/contacts.php:35 widgets/info_box.php:80 widgets/pricing_table.php:56
+#: widgets/pricing_table.php:66 widgets/promo_block.php:39
+msgid "Image"
+msgstr ""
+
+#: widgets/info_box.php:301
+msgid "Image background"
+msgstr ""
+
+#: widgets/info_box.php:321
+msgid "Image border"
+msgstr ""
+
+#: widgets/contacts.php:228
+msgid "Image box"
+msgstr ""
+
+#: widgets/promo_block.php:47
+msgid "Image on hover"
+msgstr ""
+
+#: widgets/image.php:62
+msgid "Image on Left"
+msgstr ""
+
+#: widgets/image.php:63
+msgid "Image on Right"
+msgstr ""
+
+#: widgets/team.php:144 widgets/team.php:146
+msgid "Image size"
+msgstr ""
+
+#: widgets/team.php:145
+msgid "image-size"
+msgstr ""
+
+#: widgets/info_box.php:12 widgets/info_box.php:30 widgets/info_box.php:211
+msgid "Info box"
+msgstr ""
+
+#: widgets/info_box.php:331
+msgid "Info box background"
+msgstr ""
+
+#: widgets/info_box.php:351
+msgid "Info box border"
+msgstr ""
+
+#: widgets/pricing_table.php:93
+msgid ""
+"Insert tag &lt;strong&gt; when you want highlight text.<br> Example: &lt;"
+"strong&gt;<strong>24/7</strong>&lt;/strong&gt; Support"
+msgstr ""
+
+#: widgets/chartjs.php:12 widgets/chartjs.php:31
+msgid "JS chart"
+msgstr ""
+
+#: widgets/contacts.php:152 widgets/contacts.php:214
+msgid "Justify"
+msgstr ""
+
+#: widgets/chartjs.php:68 widgets/counter.php:101 widgets/pricing_table.php:83
+msgid "Label"
+msgstr ""
+
+#: widgets/title.php:61
+msgid "Label tag"
+msgstr ""
+
+#: widgets/call_to_action.php:120
+msgid "Large"
+msgstr ""
+
+#: widgets/button.php:107 widgets/info_box.php:185 widgets/promo_block.php:146
+msgid "large"
+msgstr ""
+
+#: widgets/button.php:82 widgets/button.php:174 widgets/button.php:188
+#: widgets/contacts.php:140 widgets/contacts.php:202 widgets/title.php:148
+msgid "Left"
+msgstr ""
+
+#: widgets/button.php:134 widgets/info_box.php:167 widgets/promo_block.php:129
+msgid "light green"
+msgstr ""
+
+#: widgets/button.php:208 widgets/icon.php:73 widgets/pie_chart.php:95
+#: widgets/pricing_table.php:157 widgets/title.php:104
+msgid "Link"
+msgstr ""
+
+#: widgets/info_box.php:128 widgets/promo_block.php:90
+msgid "Link title"
+msgstr ""
+
+#: widgets/team.php:82
+msgid "link to your profile"
+msgstr ""
+
+#: widgets/team.php:107
+msgid "Links"
+msgstr ""
+
+#: widgets/maps.php:48
+msgid "Map Embed code"
+msgstr ""
+
+#: widgets/maps.php:93
+msgid "Map type"
+msgstr ""
+
+#: widgets/maps.php:74
+msgid "Map zoom"
+msgstr ""
+
+#: widgets/maps.php:31
+msgid "Maps"
+msgstr ""
+
+#: widgets/contacts.php:323
+msgid "Margin"
+msgstr ""
+
+#: widgets/call_to_action.php:119
+msgid "Medium"
+msgstr ""
+
+#: widgets/button.php:106 widgets/info_box.php:184 widgets/promo_block.php:145
+msgid "medium"
+msgstr ""
+
+#: widgets/team.php:47
+msgid "Name"
+msgstr ""
+
+#: widgets/client_slider.php:65
+msgid "Next/previous slider buttons"
+msgstr ""
+
+#: widgets/button.php:52 widgets/button.php:148 widgets/button.php:161
+#: widgets/call_to_action.php:69 widgets/call_to_action.php:136
+#: widgets/icon.php:64 widgets/info_box.php:141 widgets/info_box.php:199
+#: widgets/promo_block.php:103 widgets/promo_block.php:159 widgets/title.php:43
+#: widgets/title.php:95 widgets/title.php:125
+msgid "No"
+msgstr ""
+
+#: widgets/client_slider.php:67 widgets/client_slider.php:80
+msgid "no"
+msgstr ""
+
+#: widgets/pricing_table.php:55
+msgid "No icon"
+msgstr ""
+
+#: widgets/helpers.php:94
+msgid ""
+"No Sliders created yet. Please go to the {br}Sliders page and "
+"{add_slider_link}."
+msgstr ""
+
+#: widgets/client_slider.php:39
+msgid "Number of items"
+msgstr ""
+
+#: widgets/counter.php:177
+msgid "Number typography"
+msgstr ""
+
+#: includes/conditional-functions.php:36
+msgid "Olive"
+msgstr ""
+
+#: widgets/button.php:133 widgets/info_box.php:166 widgets/promo_block.php:128
+msgid "olive"
+msgstr ""
+
+#: widgets/button.php:224
+msgid "On-click event"
+msgstr ""
+
+#: widgets/button.php:235
+msgid "Only latin charters must be used"
+msgstr ""
+
+#: includes/conditional-functions.php:29
+msgid "Orange"
+msgstr ""
+
+#: widgets/button.php:126 widgets/info_box.php:159 widgets/promo_block.php:121
+msgid "orange"
+msgstr ""
+
+#: widgets/call_to_action.php:133 widgets/info_box.php:195
+#: widgets/promo_block.php:155
+msgid "Outlined button"
+msgstr ""
+
+#: widgets/contacts.php:311 widgets/team.php:154
+msgid "Padding"
+msgstr ""
+
+#: widgets/client_slider.php:78
+msgid "Pagination dots"
+msgstr ""
+
+#: widgets/pricing_table.php:131
+msgid "Per"
+msgstr ""
+
+#: widgets/pie_chart.php:39
+msgid "Percent number"
+msgstr ""
+
+#: elementor-olympus.php:230
+msgid "PHP"
+msgstr ""
+
+#: widgets/info_box.php:75
+msgid "Picture type"
+msgstr ""
+
+#: widgets/pie_chart.php:12 widgets/pie_chart.php:31
+msgid "Pie chart"
+msgstr ""
+
+#: widgets/maps.php:110
+msgid "Prevent the map from zooming when scrolling until clicking on the map"
+msgstr ""
+
+#: widgets/pricing_table.php:103
+msgid "Price"
+msgstr ""
+
+#: widgets/pricing_table.php:119
+msgid "Price format"
+msgstr ""
+
+#: widgets/pricing_table.php:121
+msgid ""
+"Price format default <strong>$99</strong>.<br> When turn on price format "
+"<strong>99$</strong>"
+msgstr ""
+
+#: widgets/pricing_table.php:11
+msgid "Pricing table"
+msgstr ""
+
+#: includes/conditional-functions.php:21
+msgid "Primary color"
+msgstr ""
+
+#: widgets/promo_block.php:31
+msgid "Promo block"
+msgstr ""
+
+#: widgets/promo_block.php:12 widgets/promo_block.php:170
+msgid "Promotion block"
+msgstr ""
+
+#: includes/conditional-functions.php:27
+msgid "Purple"
+msgstr ""
+
+#: widgets/button.php:125 widgets/info_box.php:158 widgets/promo_block.php:120
+msgid "purple"
+msgstr ""
+
+#: widgets/call_to_action.php:254
+msgid "Read More"
+msgstr ""
+
+#: widgets/client_slider.php:225
+msgid "Repeater List"
+msgstr ""
+
+#: widgets/chartjs.php:114
+msgid "Repeater list"
+msgstr ""
+
+#: widgets/button.php:86 widgets/button.php:173 widgets/button.php:192
+#: widgets/button.php:197 widgets/contacts.php:144 widgets/contacts.php:148
+#: widgets/contacts.php:206 widgets/contacts.php:210 widgets/title.php:150
+msgid "Right"
+msgstr ""
+
+#: widgets/maps.php:97
+msgid "Roadmap"
+msgstr ""
+
+#: includes/conditional-functions.php:34
+msgid "Rose"
+msgstr ""
+
+#: widgets/button.php:131 widgets/info_box.php:164 widgets/promo_block.php:126
+msgid "rose"
+msgstr ""
+
+#: widgets/dropcaps.php:50
+msgid "Rounded"
+msgstr ""
+
+#: widgets/maps.php:99
+msgid "Sattelite"
+msgstr ""
+
+#: includes/conditional-functions.php:22
+msgid "Secondary color"
+msgstr ""
+
+#: widgets/counter.php:41 widgets/pricing_table.php:37
+msgid "Select format of module"
+msgstr ""
+
+#: widgets/counter.php:65
+msgid "Select Icon"
+msgstr ""
+
+#: widgets/info_box.php:99 widgets/pie_chart.php:71
+#: widgets/pricing_table.php:74 widgets/team.php:97
+msgid "Select icon"
+msgstr ""
+
+#: widgets/info_box.php:101
+msgid "Select icon display in box"
+msgstr ""
+
+#: widgets/button.php:63
+msgid "Select icon for your button"
+msgstr ""
+
+#: widgets/counter.php:40 widgets/pricing_table.php:35
+msgid "Select layout"
+msgstr ""
+
+#: widgets/helpers.php:54
+msgid "Select slider"
+msgstr ""
+
+#: widgets/call_to_action.php:35
+msgid "Select Template"
+msgstr ""
+
+#: widgets/button.php:170
+msgid "Semicircle"
+msgstr ""
+
+#. Description of the plugin
+msgid "Olympus themes for Elemetor"
+msgstr ""
+
+#: widgets/button.php:157
+msgid "Shadow"
+msgstr ""
+
+#: widgets/image.php:12 widgets/image.php:31
+msgid "Shifted image"
+msgstr ""
+
+#: widgets/client_slider.php:63
+msgid "Show arrows?"
+msgstr ""
+
+#: widgets/call_to_action.php:66
+msgid "Show Button"
+msgstr ""
+
+#: widgets/info_box.php:137 widgets/promo_block.php:99
+msgid "Show button?"
+msgstr ""
+
+#: widgets/client_slider.php:76
+msgid "Show dots?"
+msgstr ""
+
+#: widgets/button.php:49
+msgid "Show Icon ?"
+msgstr ""
+
+#: widgets/pricing_table.php:51
+msgid "Show icon in header"
+msgstr ""
+
+#: widgets/maps.php:39
+msgid "Show JS Google map?"
+msgstr ""
+
+#: widgets/button.php:159
+msgid "Show shadow when hovering over button?"
+msgstr ""
+
+#: widgets/dropcaps.php:51
+msgid "Simple"
+msgstr ""
+
+#: widgets/client_slider.php:31 widgets/helpers.php:33
+msgid "Slider"
+msgstr ""
+
+#: widgets/client_slider.php:195
+msgid "Slider items"
+msgstr ""
+
+#: widgets/call_to_action.php:118
+msgid "Small"
+msgstr ""
+
+#: widgets/button.php:105 widgets/info_box.php:183 widgets/promo_block.php:144
+msgid "small"
+msgstr ""
+
+#: widgets/dropcaps.php:49
+msgid "Square"
+msgstr ""
+
+#: widgets/call_to_action.php:37
+msgid "Standard"
+msgstr ""
+
+#: widgets/call_to_action.php:194 widgets/contacts.php:166
+msgid "Sub Title"
+msgstr ""
+
+#: widgets/call_to_action.php:200 widgets/contacts.php:174
+msgid "Sub Title Color"
+msgstr ""
+
+#: widgets/call_to_action.php:215 widgets/contacts.php:189
+msgid "Sub Title Font Family"
+msgstr ""
+
+#: widgets/contacts.php:65
+msgid "Subitle"
+msgstr ""
+
+#: widgets/team.php:56 widgets/title.php:134
+msgid "Subtitle"
+msgstr ""
+
+#: widgets/team.php:205 widgets/title.php:198
+msgid "Subtitle color"
+msgstr ""
+
+#: widgets/team.php:225 widgets/title.php:218
+msgid "Subtitle typography"
+msgstr ""
+
+#: widgets/title.php:82
+msgid "Tag class"
+msgstr ""
+
+#: widgets/counter.php:81
+msgid "Targeted number"
+msgstr ""
+
+#: widgets/team.php:12 widgets/team.php:31 widgets/team.php:118
+msgid "Team"
+msgstr ""
+
+#: widgets/maps.php:98
+msgid "Terrain"
+msgstr ""
+
+#: widgets/image.php:72
+msgid "Text"
+msgstr ""
+
+#: widgets/contacts.php:137 widgets/contacts.php:199
+msgid "Text Align"
+msgstr ""
+
+#: widgets/button.php:255 widgets/info_box.php:250
+msgid "Text color"
+msgstr ""
+
+#: widgets/button.php:312
+msgid "Text color on hover"
+msgstr ""
+
+#: widgets/contacts.php:56
+msgid "Text Link"
+msgstr ""
+
+#: widgets/dropcaps.php:34
+msgid "Text Paragraph"
+msgstr ""
+
+#: widgets/counter.php:149 widgets/info_box.php:270
+msgid "Text typography"
+msgstr ""
+
+#: widgets/button.php:185
+msgid "The horizontal alignment of button"
+msgstr ""
+
+#: widgets/button.php:79
+msgid "The horizontal alignment of icon"
+msgstr ""
+
+#: widgets/image.php:58
+msgid "The horizotal alignment of element"
+msgstr ""
+
+#: widgets/counter.php:82
+msgid "The targeted number to count up to (From zero)."
+msgstr ""
+
+#: widgets/counter.php:102
+msgid "The text description of the counter."
+msgstr ""
+
+#: widgets/button.php:41
+msgid "This is the text that appears on your button"
+msgstr ""
+
+#: widgets/button.php:39 widgets/call_to_action.php:48
+#: widgets/call_to_action.php:160 widgets/contacts.php:46
+#: widgets/contacts.php:86 widgets/icon.php:51 widgets/image.php:48
+#: widgets/info_box.php:57 widgets/pie_chart.php:79 widgets/promo_block.php:56
+#: widgets/title.php:12 widgets/title.php:52 widgets/title.php:161
+msgid "Title"
+msgstr ""
+
+#: widgets/call_to_action.php:167 widgets/contacts.php:94
+msgid "Title Color"
+msgstr ""
+
+#: widgets/icon.php:150 widgets/info_box.php:219 widgets/team.php:176
+#: widgets/title.php:169
+msgid "Title color"
+msgstr ""
+
+#: widgets/contacts.php:109
+msgid "Title Color on hover"
+msgstr ""
+
+#: widgets/title.php:121
+msgid "Title decoration"
+msgstr ""
+
+#: widgets/call_to_action.php:182 widgets/contacts.php:127
+msgid "Title Font Family"
+msgstr ""
+
+#: widgets/chartjs.php:124 widgets/info_box.php:239 widgets/team.php:196
+#: widgets/title.php:189
+msgid "Title typography"
+msgstr ""
+
+#: widgets/counter.php:111
+msgid "Title underline"
+msgstr ""
+
+#: widgets/maps.php:66
+msgid "Type address"
+msgstr ""
+
+#: widgets/counter.php:92
+msgid "Type unit near counter numbers ( % , + , etc. )"
+msgstr ""
+
+#: widgets/button.php:294 widgets/promo_block.php:215
+#: widgets/promo_block.php:261
+msgid "Typography"
+msgstr ""
+
+#: widgets/counter.php:112
+msgid "Underline Title Text"
+msgstr ""
+
+#: widgets/counter.php:91
+msgid "Units"
+msgstr ""
+
+#: widgets/info_box.php:89
+msgid "Upload image"
+msgstr ""
+
+#: widgets/button.php:146
+msgid "Use border?"
+msgstr ""
+
+#: widgets/pie_chart.php:62
+msgid "Use icon?"
+msgstr ""
+
+#: widgets/promo_block.php:49
+msgid "Use only if you want to show different image on block hover"
+msgstr ""
+
+#: widgets/title.php:39
+msgid "Use post title?"
+msgstr ""
+
+#: widgets/title.php:41
+msgid ""
+"Use the title of current post/page as content element instead of text input "
+"value."
+msgstr ""
+
+#: widgets/chartjs.php:77
+msgid "Value"
+msgstr ""
+
+#: includes/conditional-functions.php:35
+msgid "Violet"
+msgstr ""
+
+#: widgets/button.php:132 widgets/info_box.php:165 widgets/promo_block.php:127
+msgid "violet"
+msgstr ""
+
+#: widgets/title.php:123
+msgid "Visual decoration lines below title text"
+msgstr ""
+
+#: includes/conditional-functions.php:23
+msgid "White"
+msgstr ""
+
+#: widgets/button.php:122 widgets/info_box.php:155 widgets/promo_block.php:117
+msgid "white"
+msgstr ""
+
+#: widgets/contacts.php:236
+msgid "Width"
+msgstr ""
+
+#: includes/conditional-functions.php:30
+msgid "Yellow"
+msgstr ""
+
+#: widgets/button.php:127 widgets/info_box.php:160 widgets/promo_block.php:122
+msgid "yellow"
+msgstr ""
+
+#: widgets/button.php:51 widgets/button.php:147 widgets/button.php:160
+#: widgets/call_to_action.php:68 widgets/call_to_action.php:135
+#: widgets/icon.php:63 widgets/info_box.php:140 widgets/info_box.php:198
+#: widgets/promo_block.php:102 widgets/promo_block.php:158 widgets/title.php:42
+#: widgets/title.php:94 widgets/title.php:124
+msgid "Yes"
+msgstr ""
+
+#: widgets/client_slider.php:66 widgets/client_slider.php:79
+msgid "yes"
+msgstr ""
+
+#: widgets/helpers.php:68
+msgid ""
+"You can edit sliders in admin interface only. {br} Please go to the Sliders "
+"page for {edit_slider_link}."
+msgstr ""
+
+#: widgets/pricing_table.php:183
+msgid "Zoom on hover"
+msgstr ""

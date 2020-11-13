@@ -1,0 +1,112 @@
+/*------------- #OL-LISTS --------------*/
+
+
+
+ol {
+  counter-reset: list1;
+  margin: 0;
+
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    transition: all .3s ease;
+    position: relative;
+    padding-left: 15px;
+
+    a {
+      display: inline-block;
+    }
+  }
+
+}
+
+/* Init counter */
+
+ol li:before {
+  position:absolute;
+  counter-increment: list1; /* Add "1" */
+  content: counter(list1) "."; /* Show count */
+  color: #515365;
+  color: var(--heading-font-color);
+  display: inline-block;
+  left: 0;
+}
+
+ol ol {
+  counter-reset: list2;
+  margin: 10px 0;
+  padding-left: 0;
+}
+
+ol ol li {
+  padding-left: 30px;
+}
+
+ol ol li:before {
+  counter-increment: list2;
+  content: counter(list1) "." counter(list2) ".";
+}
+
+ol ol ol {
+  counter-reset: list3;
+}
+
+ol ol ol li {
+  padding-left: 40px;
+}
+
+ol ol ol li:before {
+  counter-increment: list3;
+  content: counter(list1) "." counter(list1) "." counter(list3) ".";
+}
+
+ol ul ol {
+  counter-reset: list1;
+
+  li:before {
+    counter-increment: list1; /* Add "1" */
+    content: counter(list1) " "; /* Show count */
+  }
+
+}
+
+ul ol li:before {
+  position: absolute;
+  counter-increment: list1;
+  content: counter(list1) " ";
+  display: inline-block;
+  font-size: 14px;
+  left: 0;
+}
+
+ol ul ol li:before {
+  counter-increment: list1; /* Add "1" */
+  content: counter(list1) "."; /* Show count */
+  color: #515365;
+  color: var(--heading-font-color);
+  display: inline-block;
+  position:absolute;
+  list-style: none;
+  left: 0;
+}
+
+ul ol li {
+  padding-left: 15px;
+}
+
+ol {
+  padding-left: 20px;
+
+  ol {
+    margin: 10px 0 10px 0;
+  }
+
+  li {
+    overflow: visible;
+  }
+
+  ul {
+    margin-top: 10px;
+  }
+}

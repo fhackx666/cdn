@@ -1,0 +1,964 @@
+/*------------- #BUTTONS --------------*/
+
+.btn {
+  color: $white-color;
+  position: relative;
+  border: 2px solid;
+
+  i {
+	transition: all .15s ease-in-out;
+  }
+
+  &:hover {
+	opacity: .8;
+	color: $white-color;
+  }
+
+  &.c-grey {
+	border-color: #d8dbe6;
+
+	&:hover {
+	  color: inherit;
+	}
+  }
+
+  &.reset-btn {
+	width: auto;
+  }
+
+  &.disabled, &:disabled {
+	background-color: var(--icon-color);
+	border-color: var(--icon-color);
+	cursor: not-allowed;
+  }
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn--with-icon {
+  display: inline-flex;
+  align-items: center;
+
+  i {
+	font-size: 18px;
+  }
+}
+
+.btn-icon-left {
+  i {
+	margin-right: 10px;
+  }
+}
+
+.btn-icon-right {
+  i {
+	margin-left: 10px;
+  }
+}
+
+.btn-lg {
+  i {
+	font-size: 16px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .btn-lg {
+	padding: 1rem;
+  }
+}
+
+.btn-md {
+  padding: 1rem 2.5rem;
+  font-size: 0.75rem;
+  border-radius: 0.3rem;
+}
+
+@media (max-width: 1080px) {
+  .btn-md {
+	padding: .6rem .5rem;
+  }
+}
+
+.btn-md-2 {
+  padding: .8rem 1.9rem;
+  font-size: 0.688rem;
+  border-radius: 0.3rem;
+}
+
+@media (max-width: 1080px) {
+  .btn-md-2 {
+	padding: .6rem 1.5rem;
+  }
+}
+
+.btn-sm {
+  padding: 0.5rem 1.7rem;
+}
+
+.btn-control {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  line-height: 54px;
+  padding: 0;
+  fill: $white-color;
+  font-size: 20px;
+  border: none;
+
+  &:hover {
+	opacity: 1;
+  }
+
+  .more-dropdown {
+	top: auto;
+	bottom: 100%;
+
+	li {
+	  line-height: 1.3;
+	  font-size: 12px;
+	}
+  }
+
+  & > i {
+	font-size: 20px;
+  }
+
+  &.has-i {
+	font-size: unset;
+
+	& > svg,
+	& > i {
+	  font-size: 15px;
+	  width: 15px;
+	  height: 15px;
+	}
+  }
+}
+
+.btn-control-small {
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+
+  & > i {
+	font-size: 16px;
+  }
+}
+
+.btn-more {
+  background-color: #ccd1e0;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 40px;
+  transition: all .3s ease;
+
+  &:hover {
+	fill: $primary-color;
+	fill: var(--primary-accent-color);
+  }
+}
+
+.control-block-button {
+  position: absolute;
+
+  .btn-control {
+	margin-right: 20px;
+	margin-bottom: 0;
+	fill: $white-color;
+
+	&:last-child {
+	  margin-right: 0;
+	}
+
+	.olymp-settings-icon {
+	  width: 17px;
+	  height: 21px;
+	}
+
+	.olymp-happy-face-icon {
+	  width: 21px;
+	  height: 21px;
+	}
+
+	.olymp-chat---messages-icon {
+	  width: 23px;
+	  height: 20px;
+	}
+
+	.olymp-star-icon {
+	  height: 20px;
+	  width: 20px;
+	}
+
+	.olymp-happy-faces-icon {
+	  height: 22px;
+	  width: 22px;
+	}
+  }
+}
+
+/*------------- #Color-scheme for buttons --------------*/
+
+.btn-primary {
+  background-color: $primary-color;
+  background-color: var(--primary-accent-color);
+  border-color: var(--primary-accent-color);
+  color: $white-color;
+
+  &:hover {
+	color: $white-color;
+	background-color: $primary-color;
+	border-color: $primary-color;
+	background-color: var(--primary-accent-color);
+	border-color: var(--primary-accent-color);
+  }
+
+  .crumina-icon,
+  i {
+	color: $white-color;
+	fill: $white-color;
+  }
+
+  &.btn--bordered {
+	color: $primary-color;
+	color: var(--primary-accent-color);
+
+	.crumina-icon,
+	i {
+	  color: $primary-color;
+	  color: var(--primary-accent-color);
+	  fill: $primary-color;
+	  fill: var(--primary-accent-color);
+	}
+
+	&:hover {
+	  color: $white-color;
+	  border-color: $primary-color;
+	  border-color: var(--primary-accent-color);
+	  background-color: $primary-color;
+	  background-color: var(--primary-accent-color);
+
+	  .crumina-icon,
+	  i {
+		color: $white-color;
+		fill: $white-color;
+	  }
+	}
+  }
+}
+
+.btn-secondary {
+  background-color: $primary-color;
+  background-color: var(--secondary-accent-color);
+  border-color: var(--secondary-accent-color);
+  color: $white-color;
+
+  &:hover {
+	color: $white-color;
+	background-color: $secondary-color;
+	border-color: $secondary-color;
+	background-color: var(--secondary-accent-color);
+	border-color: var(--secondary-accent-color);
+  }
+
+  .crumina-icon,
+  i {
+	color: $white-color;
+	fill: $white-color;
+  }
+
+  &.btn--bordered {
+	color: $secondary-color;
+	color: var(--secondary-accent-color);
+
+	.crumina-icon,
+	i {
+	  color: $secondary-color;
+	  color: var(--secondary-accent-color);
+	  fill: $secondary-color;
+	  fill: var(--secondary-accent-color);
+	}
+
+	&:hover {
+	  color: $white-color;
+	  border-color: $secondary-color;
+	  border-color: var(--secondary-accent-color);
+	  background-color: $secondary-color;
+	  background-color: var(--secondary-accent-color);
+
+	  .crumina-icon,
+	  i {
+		color: $white-color;
+		fill: $white-color;
+	  }
+	}
+  }
+}
+
+.btn-purple {
+  background-color: $purple;
+  background-color: var(--third-accent-color);
+  border-color: var(--third-accent-color);
+  color: $white-color;
+
+  &:hover {
+	color: $white-color;
+	background-color: $purple;
+	border-color: $purple;
+	background-color: var(--third-accent-color);
+	border-color: var(--third-accent-color);
+  }
+
+  .crumina-icon,
+  i {
+	color: $white-color;
+	fill: $white-color;
+  }
+
+  &.btn--bordered {
+	color: $purple;
+	color: var(--third-accent-color);
+
+	.crumina-icon,
+	i {
+	  color: $purple;
+	  color: var(--third-accent-color);
+	  fill: $purple;
+	  fill: var(--third-accent-color);
+	}
+
+	&:hover {
+	  color: $white-color;
+	  border-color: $purple;
+	  border-color: var(--third-accent-color);
+	  background-color: $purple;
+	  background-color: var(--third-accent-color);
+
+	  .crumina-icon,
+	  i {
+		color: $white-color;
+		fill: $white-color;
+	  }
+	}
+  }
+}
+
+.btn-breez {
+  border-color: $breez;
+  background-color: $breez;
+  color: #fff;
+
+  &:hover {
+	color: $white-color;
+	background-color: $breez;
+	border-color: $breez;
+  }
+
+  .crumina-icon,
+  i {
+	color: $white-color;
+	fill: $white-color;
+  }
+
+  &.btn--bordered {
+	color: $breez;
+
+	.crumina-icon,
+	i {
+	  color: $breez;
+	  fill: $breez;
+	}
+
+	&:hover {
+	  color: $white-color;
+	  border-color: $breez;
+	  background-color: $breez;
+
+	  .crumina-icon,
+	  i {
+		color: $white-color;
+		fill: $white-color;
+	  }
+	}
+  }
+}
+
+.btn-green {
+  border-color: $green;
+  background-color: $green;
+  color: #fff;
+
+  &:hover {
+	color: $white-color;
+	background-color: $green;
+	border-color: $green;
+  }
+
+  .crumina-icon,
+  i {
+	color: $white-color;
+	fill: $white-color;
+  }
+
+  &.btn--bordered {
+	color: $green;
+
+	.crumina-icon,
+	i {
+	  color: $green;
+	  fill: $green;
+	}
+
+	&:hover {
+	  color: $white-color;
+	  border-color: $green;
+	  background-color: $green;
+
+	  .crumina-icon,
+	  i {
+		color: $white-color;
+		fill: $white-color;
+	  }
+	}
+  }
+}
+
+.btn-grey {
+  border-color: $grey;
+  background-color: $grey;
+  color: #fff;
+
+  &:hover {
+	color: $white-color;
+	background-color: $grey;
+	border-color: $grey;
+  }
+
+  .crumina-icon,
+  i {
+	color: $white-color;
+	fill: $white-color;
+  }
+
+  &.btn--bordered {
+	color: $grey;
+
+	.crumina-icon,
+	i {
+	  color: $grey;
+	  fill: $grey;
+	}
+
+	&:hover {
+	  color: $white-color;
+	  border-color: $grey;
+	  background-color: $grey;
+
+	  .crumina-icon,
+	  i {
+		color: $white-color;
+		fill: $white-color;
+	  }
+	}
+  }
+}
+
+.btn-grey-light {
+  border-color: $grey-light;
+  background-color: $grey-light;
+  color: #fff;
+
+  &:hover {
+	color: $white-color;
+	background-color: $grey-light;
+	border-color: $grey-light;
+  }
+
+  .crumina-icon,
+  i {
+	color: $white-color;
+	fill: $white-color;
+  }
+
+  &.btn--bordered {
+	color: $grey-light;
+
+	.crumina-icon,
+	i {
+	  color: $grey-light;
+	  fill: $grey-light;
+	}
+
+	&:hover {
+	  color: $white-color;
+	  border-color: $grey-light;
+	  background-color: $grey-light;
+
+	  .crumina-icon,
+	  i {
+		color: $white-color;
+		fill: $white-color;
+	  }
+	}
+  }
+}
+
+.btn-grey-lighter {
+  border-color: $grey-lighter;
+  background-color: $grey-lighter;
+  color: #fff;
+
+  &:hover {
+	color: $white-color;
+	background-color: $grey-lighter;
+	border-color: $grey-lighter;
+  }
+
+  .crumina-icon,
+  i {
+	color: $white-color;
+	fill: $white-color;
+  }
+
+  &.btn--bordered {
+	color: $grey-lighter;
+
+	.crumina-icon,
+	i {
+	  color: $grey-lighter;
+	  fill: $grey-lighter;
+	}
+
+	&:hover {
+	  color: $white-color;
+	  border-color: $grey-lighter;
+	  background-color: $grey-lighter;
+
+	  .crumina-icon,
+	  i {
+		color: $white-color;
+		fill: $white-color;
+	  }
+	}
+  }
+}
+
+.btn-breez-light {
+  border-color: $breez-light;
+  background-color: $breez-light;
+  color: #fff;
+
+  &:hover {
+	color: $white-color;
+	background-color: $breez-light;
+	border-color: $breez-light;
+  }
+
+  .crumina-icon,
+  i {
+	color: $white-color;
+	fill: $white-color;
+  }
+
+  &.btn--bordered {
+	color: $breez-light;
+
+	.crumina-icon,
+	i {
+	  color: $breez-light;
+	  fill: $breez-light;
+	}
+
+	&:hover {
+	  color: $white-color;
+	  border-color: $breez-light;
+	  background-color: $breez-light;
+
+	  .crumina-icon,
+	  i {
+		color: $white-color;
+		fill: $white-color;
+	  }
+	}
+  }
+}
+
+.btn-yellow {
+  border-color: $yellow;
+  background-color: $yellow;
+  color: #fff;
+
+  &:hover {
+	color: $white-color;
+	background-color: $yellow;
+	border-color: $yellow;
+  }
+
+  .crumina-icon,
+  i {
+	color: $white-color;
+	fill: $white-color;
+  }
+
+  &.btn--bordered {
+	color: $yellow;
+
+	.crumina-icon,
+	i {
+	  color: $yellow;
+	  fill: $yellow;
+	}
+
+	&:hover {
+	  color: $white-color;
+	  border-color: $yellow;
+	  background-color: $yellow;
+
+	  .crumina-icon,
+	  i {
+		color: $white-color;
+		fill: $white-color;
+	  }
+	}
+  }
+}
+
+.btn-smoke {
+  border-color: $smoke;
+  background-color: $smoke;
+  color: #000;
+
+  &:hover {
+	color: #000;
+	background-color: $smoke;
+	border-color: $smoke;
+  }
+
+  .crumina-icon,
+  i {
+	color: #000;
+	fill: #000;
+  }
+
+  &.btn--bordered {
+	color: #000;
+
+	.crumina-icon,
+	i {
+	  color: #000;
+	  fill: #000;
+	}
+
+	&:hover {
+	  color: #000;
+	  border-color: $smoke;
+	  background-color: $smoke;
+
+	  .crumina-icon,
+	  i {
+		color: #000;
+		fill: #000;
+	  }
+	}
+  }
+}
+
+.btn-white {
+  border-color: $white-color;
+  background-color: $white-color;
+  color: #000;
+
+  &:hover {
+	color: #000;
+	background-color: $white-color;
+	border-color: $white-color;
+  }
+
+  .crumina-icon,
+  i {
+	color: #000;
+	fill: #000;
+  }
+
+  &.btn--bordered {
+	color: #000;
+
+	.crumina-icon,
+	i {
+	  color: #000;
+	  fill: #000;
+	}
+
+	&:hover {
+	  color: #000;
+	  border-color: $white-color;
+	  background-color: $white-color;
+
+	  .crumina-icon,
+	  i {
+		color: #000;
+		fill: #000;
+	  }
+	}
+  }
+}
+
+.btn-dark {
+  border-color: #000;
+  background-color: #000;
+  color: $white-color;
+
+  &:hover {
+	color: $white-color;
+	background-color: #000;
+	border-color: #000;
+  }
+
+  .crumina-icon,
+  i {
+	color: $white-color;
+	fill: $white-color;
+  }
+
+  &.btn--bordered {
+	color: #000;
+
+	.crumina-icon,
+	i {
+	  color: #000;
+	  fill: #000;
+	}
+
+	&:hover {
+	  color: $white-color;
+	  border-color: #000;
+	  background-color: #000;
+
+	  .crumina-icon,
+	  i {
+		color: $white-color;
+		fill: $white-color;
+	  }
+	}
+  }
+}
+
+.btn--bordered {
+  background-color: transparent;
+}
+
+.btn-blue {
+  border-color: $blue;
+  border-color: var(--secondary-accent-color);
+  background-color: $blue;
+  background-color: var(--secondary-accent-color);
+}
+
+/*------------- ... end #Color-scheme for buttons --------------*/
+
+.with--icon {
+  text-align: left;
+
+  .icon {
+	margin-right: 12px;
+	height: 35px;
+	width: 35px;
+	font-size: 35px;
+	fill: $white-color;
+  }
+
+  > * {
+	display: inline-block;
+	vertical-align: middle;
+  }
+
+  .text {
+	overflow: hidden;
+  }
+
+  span {
+	display: block;
+  }
+
+  .sup-title {
+	font-size: 8px;
+	font-weight: 700;
+  }
+
+  .title {
+	font-size: 14px;
+	font-weight: 700;
+  }
+
+  &:after {
+	box-shadow: 10px 0 15px 0 rgba(18, 25, 33, 0.3);
+  }
+
+  &.btn-md {
+	.icon {
+	  margin-right: 15px;
+	  height: 22px;
+	  width: 22px;
+	  font-size: 22px;
+	}
+  }
+}
+
+/*------------- #BUTTONS-action with icons --------------*/
+
+.icon-add {
+  position: relative;
+  display: inline-block;
+  margin-right: 12px;
+  vertical-align: middle;
+
+  &:after {
+	content: '\f067';
+	display: block;
+	position: absolute;
+	right: -4px;
+	top: -4px;
+	color: inherit;
+	font-size: 7px;
+	font-family: 'Font Awesome 5 Free';
+  }
+
+  &.without-text {
+	margin-right: 0;
+  }
+}
+
+.icon-minus {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+
+  &:after {
+	content: '\f068';
+	display: block;
+	position: absolute;
+	right: -4px;
+	top: -4px;
+	color: inherit;
+	font-size: 7px;
+	font-family: 'Font Awesome 5 Free';
+  }
+}
+
+.accept-request {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem;
+  font-size: 0.688rem;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+  background-color: $blue;
+  background-color: var(--secondary-accent-color);
+  color: $white-color;
+  fill: $white-color;
+
+  &:hover, &:focus {
+	color: $white-color;
+	fill: $white-color;
+	opacity: .9;
+  }
+
+  & + .accept-request {
+	margin-left: 8px;
+  }
+
+  svg, i {
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+  }
+}
+
+.request-del {
+  background-color: $grey-lighter;
+}
+
+/*------------- #Button back-to-top --------------*/
+
+.back-to-top {
+  position: fixed;
+  z-index: 19;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  stroke: inherit;
+  transition: all .3s ease;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 rgba(63, 66, 87, 0.4);
+  border-radius: 100%;
+  background-color: $primary-color;
+  background-color: var(--primary-accent-color);
+  text-align: center;
+  opacity: 0;
+
+  &.btt-visible {
+	opacity: .3;
+
+	&:hover {
+	  opacity: 1;
+	}
+  }
+
+  .back-icon {
+	font-size: 18px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	fill: $white-color;
+	color: $white-color;
+  }
+}
+
+.btn-transparent {
+  background-color: transparent;
+}
+
+/*================= Responsive Mode ============*/
+
+@media (max-width: 1080px) {
+  .btn--with-icon i {
+	font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	right: 20px;
+
+	.back-icon {
+	  height: 15px;
+	  width: 15px;
+	  font-size: 15px;
+	}
+  }
+}
+
+@media (max-width: 360px) {
+  .btn-control .more-dropdown {
+	top: 100%;
+	bottom: auto;
+  }
+}

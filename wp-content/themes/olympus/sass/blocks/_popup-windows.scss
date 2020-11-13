@@ -1,0 +1,230 @@
+/*------------- #POPUP-WINDOWS --------------*/
+
+body.admin-bar {
+    .modal-dialog {
+        margin-top: 60px;
+    }
+}
+
+.window-popup,
+.modal-dialog {
+  max-width: calc(100% - 30px);
+
+  .icon-close {
+	opacity: 1;
+	margin-top: 0;
+	margin-right: 0;
+	font-size: 18px;
+  }
+
+  .icon {
+	fill: $body-font-color;
+	fill: var(--body-font-color);
+	float: right;
+	margin-top: 7px;
+	padding: 0;
+  }
+
+  .input-group-addon .icon {
+	margin-top: 0;
+  }
+
+  .form-group {
+	margin-bottom: 25px;
+  }
+
+  .form-group.with-button button {
+	width: 50px;
+	border-radius: 0 5px 5px 0;
+  }
+
+  .olymp-computer-icon {
+	width: 22px;
+	height: 20px;
+  }
+}
+
+.icon-close {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  color: $white-color;
+  fill: $white-color;
+
+  &:hover {
+	color: $primary-color;
+	fill: $primary-color;
+	color: var(--primary-accent-color);
+	fill: var(--primary-accent-color);
+  }
+}
+
+figcaption {
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #515365;
+  color: var(--heading-font-color);
+
+  a {
+	color: #515365;
+	color: var(--heading-font-color);
+
+	&:hover {
+	  color: $primary-color;
+	  color: var(--primary-accent-color);
+	}
+  }
+
+  span {
+	font-size: 10px;
+	color: $body-font-color;
+	color: var(--body-font-color);
+	font-weight: 400;
+	display: block;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+.modal-dialog-fixed-width {
+  width: 670px;
+
+  .modal-content {
+	border: none;
+  }
+}
+
+.modal-body .ui-block{
+	padding: 0;
+	margin: 0;
+}
+
+.registration-login-form-popup {
+  width: 520px;
+
+  .registration-login-form {
+	margin-bottom: 0;
+  }
+
+  .modal-content {
+	border: none;
+  }
+
+  .modal-body {
+	padding: 0;
+	border-radius: 0.3rem;
+	overflow: hidden;
+  }
+}
+
+.event-description {
+  padding-left: 30px;
+  border-left: 1px solid $border-color;
+  margin-bottom: 40px;
+
+  .event-description-title {
+	font-weight: 700;
+	margin-bottom: 40px;
+  }
+
+  .place {
+	margin-bottom: 20px;
+  }
+
+  .friends-harmonic {
+	margin-bottom: 35px;
+  }
+}
+
+.relative {
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+}
+
+.modal.show {
+  padding-right: 0 !important;
+}
+
+.modal.show .modal-dialog {
+  display: block !important;
+}
+
+.popup-write-rewiev {
+  width: 470px;
+
+  .must-log-in {
+	margin: 0;
+	padding: 23px 25px 18px;
+  }
+}
+
+.crumina-window-popup {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  overflow-y: auto;
+  outline: none;
+}
+
+.window-popup {
+  position: relative;
+  margin: auto;
+  border-radius: 5px;
+  background-color: $white-color;
+  width: 520px;
+  max-width: calc(100% - 30px);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+.modal-active {
+  overflow: hidden;
+}
+
+[x-cloak] {
+  display: none;
+}
+
+/*================= Responsive Mode ============*/
+
+@media (max-width: 1080px) {
+  .icon-close,
+  .window-popup .icon-close {
+	right: 50%;
+	margin-right: -9px;
+  }
+}
+
+@media (max-width: 768px) {
+  .icon-close,
+  .window-popup .icon-close {
+	right: 50%;
+	margin-right: -9px;
+  }
+
+  .photo-album-item.create-album .btn-control {
+	width: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+
+ .remember a {
+	float: none;
+	display: block;
+  }
+
+  .page-link {
+	padding: 5px 10px;
+  }
+}

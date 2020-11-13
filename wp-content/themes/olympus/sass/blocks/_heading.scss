@@ -1,0 +1,111 @@
+/*------------- #HEADING --------------*/
+
+
+
+.crumina-heading {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 0;
+  display: inline-block;
+
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+
+  & > *:first-child {
+    margin-top: 0;
+  }
+
+  & + * {
+    margin-top: 25px;
+  }
+
+  &:hover {
+    .heading-decoration {
+      width: 100%;
+    }
+  }
+}
+
+.heading-title {
+  margin-bottom: 0;
+  line-height: 1.3em;
+}
+
+.heading-text {
+  margin-top: 20px;
+  line-height: 1.75;
+
+  &.small {
+    font-size: 14px;
+  }
+
+  a {
+    font-weight: 700;
+  }
+}
+
+.heading-sup-title {
+  color: $primary-color;
+  color: var(--primary-accent-color);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.with-title-decoration {
+  .heading-title {
+    position: relative;
+    padding-bottom: 30px;
+
+    &:after, &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: all .3s ease;
+    }
+
+    &:after {
+      height: 1px;
+      background-color: $border-color;
+      width: 100%;
+    }
+
+    &:before {
+      height: 1px;
+      background-color: $primary-color;
+      background-color: var(--primary-accent-color);
+      width: 10%;
+      z-index: 1;
+    }
+  }
+
+  &:hover {
+    .heading-title:before {
+      width: 100%;
+    }
+  }
+}
+
+.heading-decoration {
+  display: inline-block;
+  width: 65px;
+  height: 2px;
+  background-color: $primary-color;
+  background-color: var(--primary-accent-color);
+  transition: width .3s ease-in-out;
+  margin-top: 17px;
+}
+
+
+/*------------- Responsive mode styles --------------*/
+
+
+@media (max-width: 768px) {
+  .heading-title {
+    margin-bottom: 0;
+  }
+}

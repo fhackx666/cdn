@@ -1,0 +1,330 @@
+# Translation of Plugins - Limit Login Attempts Reloaded - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Limit Login Attempts Reloaded - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-01 07:26:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Limit Login Attempts Reloaded - Stable (latest release)\n"
+
+#: views/tab-dashboard.php:77
+msgid "Deny Rules"
+msgstr "Regeln für Ablehnung"
+
+#: views/tab-dashboard.php:63
+msgid "Allow Rules"
+msgstr "Regeln für Erlaubnis"
+
+#: views/options-page.php:16
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: views/tab-settings.php:144 views/tab-dashboard.php:91
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: views/tab-settings.php:82
+msgid "The workers absorb the main load caused by brute-force attacks, analyse login attempts and block unwanted visitors. They might provide other service functions as well."
+msgstr "Die Worker schultern den Großteil der Last, die von Brute-Force-Attacken verursacht werden, analysieren Login-Versuche und blockieren unerwünschte Besucher. Sie können auch andere Services bereitstellen."
+
+#: views/tab-settings.php:81
+msgid "Worker Settings"
+msgstr "Worker-Einstellungen"
+
+#: views/tab-settings.php:23
+msgid "These settings are independent of the workers (see below)."
+msgstr "Diese Einstellungen sind von den Workern unabhängig (siehe unten)."
+
+#: views/tab-settings.php:22
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: core/LimitLoginAttempts.php:1340 core/LimitLoginAttempts.php:1384
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#. Description of the plugin
+msgid "Limit the rate of login attempts for each IP address."
+msgstr "Login-Versuche nach IP-Adresse limitieren."
+
+#: core/LimitLoginAttempts.php:1509
+msgid "Leave a review"
+msgstr "Eine Bewertung schreiben"
+
+#: core/LimitLoginAttempts.php:1508
+msgid "Maybe later"
+msgstr "Vielleicht später"
+
+#: core/LimitLoginAttempts.php:1507
+msgid "Don't show again"
+msgstr "Nicht erneut anzeigen"
+
+#: core/LimitLoginAttempts.php:1504
+msgid "We would really like to hear your feedback about the plugin! Please take a couple minutes to write a few words <a href=\"https://wordpress.org/support/plugin/limit-login-attempts-reloaded/reviews/#new-post\" target=\"_blank\">here</a>. Thank you!"
+msgstr "Wir würden außerdem gern deine Meinung über das Plugin hören! Bitte nimm dir ein paar Minuten Zeit, um <a href=\"https://wordpress.org/support/plugin/limit-login-attempts-reloaded/reviews/#new-post\" target=\"_blank\">hier</a> ein paar Worte zu schreiben. Vielen Dank!"
+
+#: core/LimitLoginAttempts.php:1503
+msgid "A <strong>crazy idea</strong> we wanted to share! What if we put an image from YOU on the <a href=\"https://wordpress.org/plugins/limit-login-attempts-reloaded/\" target=\"_blank\">LLAR page</a>?! (<a href=\"https://wordpress.org/plugins/hello-dolly/\" target=\"_blank\">example</a>) A drawing made by you or your child would cheer people up! Send us your drawing by <a href=\"mailto:wpchef.me@gmail.com\" target=\"_blank\">email</a> and we like it, we'll add it in the next release. Let's have some fun!"
+msgstr "Eine <strong>verrückte Idee</strong>, die wir teilen wollen! Was wäre, wenn wir ein Bild von DIR auf der <a href=\"https://wordpress.org/plugins/limit-login-attempts-reloaded/\" target=\"_blank\">LLAR-Seite zeigen</a>?! (<a href=\"https://wordpress.org/plugins/hello-dolly/\" target=\"_blank\">example</a>) Ein von dir oder deinem Kind angefertigtes Gemälde würde die Leute begeistern! Schicke uns dein Bild per <a href=\"mailto:wpchef.me@gmail.com\" target=\"_blank\">E-Mail</a> und wenn es uns gefällt, werden wir es in der nächsten Version veröffentlichen. Lasst uns gemeinsam Spaß haben!"
+
+#: core/LimitLoginAttempts.php:1502
+msgid "Hey <strong>Limit Login Attempts Reloaded</strong> user!"
+msgstr "Hey <strong>Limit Login Attempts Reloaded</strong> Benutzer!"
+
+#: views/tab-debug.php:40
+msgid "Copy the contents of the window and provide to support."
+msgstr "Kopiere die Inhalte des Fensters und gib sie an den Support weiter."
+
+#: views/options-page.php:18
+msgid "Debug"
+msgstr "Debug"
+
+#: views/options-page.php:17
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: views/tab-debug.php:37
+msgid "Debug info"
+msgstr "Debug-Informationen"
+
+#: views/tab-settings.php:117
+msgid "Specify the origins you trust in order of priority, separated by commas. We strongly recommend that you <b>do not</b> use anything other than REMOTE_ADDR since other origins can be easily faked. Examples: HTTP_X_FORWARDED_FOR, HTTP_CF_CONNECTING_IP, HTTP_X_SUCURI_CLIENTIP"
+msgstr "Gib die Herkunftsadressen, denen du vertraust, in der Reihenfolge ihrer Priorität ein, durch Kommas getrennt. Wir empfehlen sehr, dass du <b>nichts</b> anderes als REMOTE_ADDR benutzt, denn andere Adressen können leicht gefälscht werden. Beispiele: HTTP_X_FORWARDED_FOR, HTTP_CF_CONNECTING_IP, HTTP_X_SUCURI_CLIENTIP"
+
+#: views/tab-settings.php:113
+msgid "Trusted IP Origins"
+msgstr "Vertrauenswürdige IP-Adressen"
+
+#: views/tab-settings.php:73
+msgid "after"
+msgstr "nach"
+
+#: views/tab-settings.php:70
+msgid "Email to"
+msgstr "Per E-Mail an"
+
+#: core/LimitLoginAttempts.php:1318
+msgid "The \""
+msgstr "Der \""
+
+#: core/LimitLoginAttempts.php:1036
+msgid "<strong>ERROR</strong>: Incorrect email address or password."
+msgstr "<strong>FEHLER</strong>: Falsche E-Mail-Adresse oder Passwort."
+
+#. Author URI of the plugin
+msgid "https://wpchef.org"
+msgstr "https://wpchef.org"
+
+#. Author of the plugin
+msgid "WPChef"
+msgstr "WPChef"
+
+#: views/tab-settings.php:57
+msgid "this makes the plugin <a href=\"https://gdpr-info.eu/\" target=\"_blank\" >GDPR</a> compliant"
+msgstr "dies macht das Plugin <a href=\"https://dsgvo-gesetz.de/\" target=\"_blank\" >DSGVO</a>-konform"
+
+#: views/tab-settings.php:54
+msgid "GDPR compliance"
+msgstr "DSGVO-Konformität"
+
+#: views/tab-dashboard.php:66 views/tab-dashboard.php:80
+msgid "One IP or IP range (1.2.3.4-5.6.7.8) per line"
+msgstr "Eine IP-Adresse oder ein IP-Bereich (1.2.3.4-5.6.7.8) pro Zeile"
+
+#. Plugin Name of the plugin
+#: views/options-page.php:13
+msgid "Limit Login Attempts Reloaded"
+msgstr "Limit Login Attempts Reloaded"
+
+#: views/tab-dashboard.php:118
+msgid "Gateway"
+msgstr "Gateway"
+
+#: views/tab-dashboard.php:117
+msgid "Tried to log in as"
+msgstr "Loginversuch als"
+
+#: views/tab-dashboard.php:116
+msgctxt "Internet address"
+msgid "IP"
+msgstr "IP"
+
+#: views/tab-dashboard.php:115
+msgid "Date"
+msgstr "Datum"
+
+#: views/tab-dashboard.php:107
+msgid "Clear Log"
+msgstr "Protokolle leeren"
+
+#: views/tab-dashboard.php:70 views/tab-dashboard.php:84
+msgid "One Username per line"
+msgstr "Ein Nutzername pro Zeile"
+
+#: views/tab-settings.php:76
+msgid "lockouts"
+msgstr "Aussperrungen"
+
+#: views/tab-dashboard.php:102
+msgid "Lockout log"
+msgstr "Aussperrungsprotokoll"
+
+#: views/tab-settings.php:62
+msgid "Notify on lockout"
+msgstr "Benachrichtigung über Aussperrung"
+
+#: views/tab-settings.php:108
+msgid "hours until retries are reset"
+msgstr "Stunden bis zum Zurücksetzen der Loginversuche"
+
+#: views/tab-settings.php:105
+msgid "hours"
+msgstr "Stunden"
+
+#: views/tab-settings.php:102
+msgid "lockouts increase lockout time to"
+msgstr "Aussperrungen erhöhen die Aussperrzeit auf"
+
+#: views/tab-settings.php:98
+msgid "minutes lockout"
+msgstr "Minuten Aussperrung"
+
+#: views/tab-settings.php:94
+msgid "allowed retries"
+msgstr "erlaubte Versuche"
+
+#: views/tab-settings.php:89
+msgid "Lockout"
+msgstr "Aussperrung"
+
+#: views/tab-settings.php:32
+msgid "Use global settings"
+msgstr "Globale Einstellungen verwenden"
+
+#: views/tab-settings.php:30
+msgid "If disabled, the global settings will be forcibly applied to the entire network."
+msgstr "Wenn dies nicht aktiviert ist, werden die globalen Einstellungen auf alle Netzwerk-Sites angewendet."
+
+#: views/tab-settings.php:29
+msgid "Let network sites use their own settings"
+msgstr "Netzwerk-Sites eigene Einstellungen erlauben"
+
+#: views/tab-dashboard.php:51
+msgid "%d IP is currently blocked from trying to log in"
+msgstr "%d IP ist zur Zeit vom Login ausgeschlossen"
+
+#: views/tab-dashboard.php:49
+msgid "Restore Lockouts"
+msgstr "Aussperrungen wiederherstellen"
+
+#: views/tab-dashboard.php:46
+msgid "Active lockouts"
+msgstr "Aktive Aussperrungen"
+
+#: views/tab-dashboard.php:39
+msgid "No lockouts yet"
+msgstr "Bisher keine Aussperrungen"
+
+#: views/tab-dashboard.php:37
+msgid "%d lockout since last reset"
+msgid_plural "%d lockouts since last reset"
+msgstr[0] "%d Aussperrung seit dem letzten Zurücksetzen"
+msgstr[1] "%d Aussperrungen seit dem letzten Zurücksetzen"
+
+#: views/tab-dashboard.php:35
+msgid "Reset Counter"
+msgstr "Den Zähler zurücksetzen"
+
+#: views/tab-dashboard.php:31
+msgid "Total lockouts"
+msgstr "Aussperrungen insgesamt"
+
+#: views/tab-dashboard.php:26
+msgid "Statistics"
+msgstr "Statistiken"
+
+#: core/LimitLoginAttempts.php:1284
+msgid "Cleared current lockouts"
+msgstr "Aktuelle Aussperrungen entfernt"
+
+#: core/LimitLoginAttempts.php:1277
+msgid "Reset lockout count"
+msgstr "Aussperrungszähler zurücksetzen"
+
+#: core/LimitLoginAttempts.php:1270
+msgid "Cleared IP log"
+msgstr "IP-Protokoll löschen"
+
+#: core/LimitLoginAttempts.php:1063
+msgid "WC Error"
+msgstr "WC-Fehler"
+
+#: core/LimitLoginAttempts.php:1038
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr "<strong>FEHLER</strong>: Falscher Nutzername oder Passwort."
+
+#: core/LimitLoginAttempts.php:958
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] "Bitte versuche es in %d Minute noch einmal."
+msgstr[1] "Bitte versuche es in %d Minuten noch einmal."
+
+#: core/LimitLoginAttempts.php:956
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] "Bitte versuche es in %d Stunde noch einmal."
+msgstr[1] "Bitte versuche es in %d Stunden noch einmal."
+
+#: core/LimitLoginAttempts.php:948
+msgid "Please try again later."
+msgstr "Bitte versuche es später noch einmal."
+
+#: core/LimitLoginAttempts.php:940
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr "<strong>FEHLER</strong>: Zu viele Loginversuche."
+
+#: core/LimitLoginAttempts.php:714
+msgid "IP was blocked for %s"
+msgstr "Die IP wurde für %s geblockt"
+
+#: core/LimitLoginAttempts.php:712
+msgid "IP was NOT blocked because of external whitelist."
+msgstr "IP wurde auf Grund der externen Whitelist NICHT geblockt."
+
+#: core/LimitLoginAttempts.php:708
+msgid "Last user attempted: %s"
+msgstr "Letzter Versuch durch Benutzer: %s"
+
+#: core/LimitLoginAttempts.php:704
+msgid "%d failed login attempts (%d lockout(s)) from IP: %s"
+msgstr "%d fehlgeschlagene Loginversuche (%d Aussperrung(en)) von IP: %s"
+
+#: core/LimitLoginAttempts.php:699
+msgid "[%s] Too many failed login attempts"
+msgstr "[%s] Zu viele fehlgeschlagene Loginversuche"
+
+#: core/LimitLoginAttempts.php:695
+msgid "[%s] Failed login attempts from whitelisted IP"
+msgstr "[%s] Fehlgeschlagene Loginversuche von einer IP auf der Whitelist"
+
+#: core/LimitLoginAttempts.php:688
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d Minute"
+msgstr[1] "%d Minuten"
+
+#: core/LimitLoginAttempts.php:682
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d Stunde"
+msgstr[1] "%d Stunden"
+
+#: core/LimitLoginAttempts.php:280 core/LimitLoginAttempts.php:1122
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] "<strong>%d</strong> Versuch verbleibend."
+msgstr[1] "<strong>%d</strong> Versuche verbleibend."

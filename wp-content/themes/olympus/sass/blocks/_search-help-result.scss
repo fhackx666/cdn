@@ -1,0 +1,219 @@
+/*------------- #SEARCH-HELP-RESULT --------------*/
+
+body.no-stunning-header .search-page-panel.negative-margin-top50 {
+  margin-top: 50px;
+}
+
+.search-help-result {
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid $border-color;
+  box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+  background-color: $white-color;
+  overflow: hidden;
+  margin-top: 40px;
+
+  #yz-members-list li .yzm-user-data,
+  #yz-groups-list li .yz-group-data {
+	border: 1px solid $border-color;
+  }
+
+  #search-fail {
+	border: none;
+  }
+
+  #yz-members-list,
+  #yz-groups-list {
+	padding-left: 0;
+	float: left;
+	width: 100%;
+  }
+
+  #bbpress-forums li.bbp-body ul.forum,
+  #bbpress-forums li.bbp-body ul.topic {
+	border-bottom: 1px solid $border-color;
+  }
+
+  #bbpress-forums ul.bbp-topics {
+	border: 1px solid $border-color;
+	border-bottom: none;
+  }
+}
+
+.search-help-result-title {
+  text-align: center;
+  margin: 50px 0;
+
+  .count-result {
+	color: $primary-color;
+	color: var(--primary-accent-color);
+  }
+
+  .search-query {
+	font-style: italic;
+	color: $body-font-color;
+	color: var(--body-font-color);
+  }
+}
+
+.search-help-result-list {
+  padding-left: 0;
+  list-style: none;
+
+  & > li {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid $border-color;
+
+	&:last-child {
+	  border-bottom: none;
+	  margin-bottom: 0;
+	}
+
+	.friends-harmonic {
+	  a {
+		border-radius: 0;
+	  }
+	}
+
+	.main-content-wrap {
+	  margin-bottom: 20px;
+	}
+  }
+
+  .title {
+	margin-bottom: 40px;
+  }
+
+  .single-post-additional {
+	margin-bottom: 20px;
+  }
+
+  .single-post-additional > * + * {
+	border-left: none;
+	margin-left: 30px;
+  }
+
+  .single-post-additional > * {
+	padding: 20px 0;
+  }
+
+  .post__author img {
+	width: 26px;
+	height: 26px;
+  }
+
+  .main-content-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.product-price {
+	  font-size: 1.8rem;
+	  margin-right: 0;
+	}
+  }
+}
+
+.highlight-searched {
+  color: $white-color;
+  padding: 0 5px;
+}
+
+.user-raiting {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #515365;
+  color: var(--heading-font-color);
+  font-weight: 700;
+
+  img {
+	margin-right: 20px;
+  }
+}
+
+.page-404-content {
+  text-align: center;
+
+  img {
+	margin-bottom: 70px;
+  }
+}
+
+.search-no-results {
+  .search-help-result-title {
+	margin: 50px 0;
+  }
+}
+
+.search-help-result-title.text-danger {
+  margin: 100px 0;
+  color: $primary-color !important;
+  color: var(--primary-accent-color) !important;
+}
+
+#search-fail {
+
+  .entry-content > strong {
+	color: $primary-color;
+	color: var(--primary-accent-color);
+	font-size: 1.75rem;
+	display: block;
+	font-weight: 300;
+  }
+
+  .sup-title {
+	font-size: 1.2rem;
+	font-weight: 300;
+  }
+
+  ul {
+	padding-left: 20px;
+
+	li {
+	  font-weight: 500;
+	}
+  }
+}
+
+/*================= Responsive Mode ============*/
+
+@media (max-width: 860px) {
+  .search-help-result-title {
+	margin: 30px 0;
+  }
+
+  .search-help-result-list > li {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .page-404-content img {
+	margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 560px) {
+
+  .search-help-result-list .title {
+	margin: 20px 0;
+  }
+
+  .search-help-result-list .single-post-additional > * {
+	display: inline-block;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .search-help-result-list .single-post-additional > * {
+	display: block;
+  }
+
+  .search-help-result-list .single-post-additional > * + * {
+	margin-left: 0;
+  }
+}

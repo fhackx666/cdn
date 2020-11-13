@@ -1,0 +1,135 @@
+/*------------- #Gutenberg Customization --------------*/
+
+
+.olympus-theme {
+
+  .wp-block-pullquote {
+	border-top: 4px solid #555d66;
+	border-bottom: 4px solid #555d66;
+	color: #40464d;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0;
+
+	blockquote {
+	  margin: 2em 0;
+	  padding: 15px 30px 15px 30px;
+	  position: relative;
+
+	  p:before {
+		left: -30px;
+	  }
+	}
+  }
+
+  .wp-block-image,
+  .wp-block-embed-vimeo {
+	margin: 2em auto;
+  }
+
+  .wp-block-gallery {
+	margin: 2em -8px;
+	list-style: none;
+	padding-left: 0;
+  }
+
+  .wp-block-image {
+	figcaption {
+	  margin-bottom: 0;
+	}
+  }
+
+  .wp-block-separator {
+	border: none;
+	border-bottom-color: currentcolor;
+	border-bottom-style: none;
+	border-bottom-width: medium;
+	border-bottom: 2px solid #8f98a1;
+	margin: 1.65em auto;
+
+	&:after {
+	  content: "";
+	  display: block;
+	  clear: both;
+	}
+
+	&.is-style-dots {
+	  border: none;
+	}
+  }
+
+  .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+	max-width: 100px;
+  }
+
+  .wp-block-categories,
+  .wp-block-archives,
+  .wp-block-latest-posts,
+  .wp-block-latest-posts {
+	list-style: none;
+	padding-left: 0;
+
+	li {
+	  a {
+		color: #515365;
+		color: var(--heading-font-color);
+
+		&:hover {
+		  color: var(--primary-accent-color);
+		}
+	  }
+	}
+  }
+
+  .wp-block-latest-posts.is-grid li {
+	margin: 0 16px 5px 0;
+  }
+
+  .wp-block-quote.is-large,
+  .wp-block-quote.is-style-large {
+	margin: 3em 0;
+	padding: 15px 80px 15px 80px;
+  }
+
+  .wp-block-preformatted {
+	overflow: auto;
+  }
+
+  ol:not([class]) ol:not([class]),
+  ul:not([class]) ul:not([class]),
+  ol:not([class]) ul:not([class]) {
+	padding-left: 20px;
+  }
+
+  .wp-block-pullquote cite {
+	font-style: italic;
+	font-size: .875rem;
+	text-align: right;
+	color: #888da8;
+  }
+}
+
+/*------------- Responsive mode styles --------------*/
+
+@media (max-width: 1024px) {
+  .olympus-theme .wp-block-quote.is-large,
+  .olympus-theme .wp-block-quote.is-style-large {
+	margin: 1.5em 0;
+	padding: 15px 30px 15px 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .wp-block-quote.is-large p,
+  .wp-block-quote.is-style-large p,
+  .wp-block-pullquote p {
+	font-size: 16px;
+  }
+
+  .wp-block-quote.is-large cite,
+  .wp-block-quote.is-large footer,
+  .wp-block-quote.is-style-large cite,
+  .wp-block-quote.is-style-large footer {
+	font-size: 14px;
+  }
+}

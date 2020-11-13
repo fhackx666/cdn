@@ -1,0 +1,58 @@
+/*------------- #W-ABOUT --------------*/
+
+.w-about {
+  .logo {
+	color: inherit;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 15px;
+	padding: 0;
+
+	&.center {
+	  justify-content: center;
+	}
+
+	&.flex-start {
+	  justify-content: flex-start;
+	}
+
+	&.flex-end {
+	  justify-content: flex-end;
+	}
+
+	&:hover {
+	  color: inherit;
+	}
+  }
+
+  .w-about-content-wrap {
+	&.center {
+	  text-align: center;
+	}
+
+	&.flex-start {
+	  text-align: left;
+	}
+
+	&.flex-end {
+	  text-align: right;
+	}
+  }
+
+  ul {
+	margin-bottom: 0;
+  }
+
+  .img-wrap {
+	margin-right: 17px;
+  }
+
+  .logo-title {
+	color: #515365;
+	color: var(--heading-font-color);
+  }
+}
+
+.ui-block .w-about {
+  padding: 24px 23px 23px;
+}

@@ -1,0 +1,59 @@
+/*------------- #Elementor Customization --------------*/
+
+
+.elementor-section:not(.elementor-inner-section) {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.elementor-page {
+  #content {
+	margin: 0;
+  }
+
+  #primary.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+  }
+}
+
+.js-equal-child {
+
+  .elementor-widget-container,
+  .elementor-widget-wrap,
+  .elementor-element {
+	height: 100% !important;
+  }
+}
+
+.elementor-widget-olympus_button.elementor-widget__width-auto {
+  margin-right: 15px;
+
+  &:last-child {
+	margin-right: 15px;
+  }
+}
+
+
+/*================= Responsive Mode ============*/
+
+@media (max-width: 768px) {
+
+  .elementor-section:not(.elementor-inner-section) {
+	padding-top: 30px;
+	padding-bottom: 30px;
+  }
+
+  .contact-form-wrap .title span {
+	font-size: 30px !important;
+  }
+
+  .js-equal-child {
+
+	.elementor-widget-container,
+	.elementor-widget-wrap,
+	.elementor-element {
+	  height: auto !important;
+	}
+  }
+}

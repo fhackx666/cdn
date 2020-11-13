@@ -1,0 +1,441 @@
+
+.fixed-sidebar {
+  z-index: 22;
+  width: 70px;
+  left: 0;
+  position: fixed;
+
+  .ui-block-title {
+	margin: 15px 0 5px 0;
+	border-radius: 0;
+  }
+
+  .search-friend i,
+  .search-friend svg {
+	height: 20px;
+	width: 20px;
+	font-size: 20px;
+
+	&:hover {
+	  fill: $primary-color;
+	  fill: var(--primary-accent-color);
+	  color: $primary-color;
+	  color: var(--primary-accent-color);
+	}
+  }
+
+  .ui-block-title a {
+	margin-left: 20px;
+	text-transform: uppercase;
+	font-size: 9px;
+	padding: 0;
+
+	& + a {
+	  float: right;
+	  color: #515365;
+	  color: var(--heading-font-color);
+	}
+  }
+
+  .mCustomScrollbar {
+	max-height: calc(100vh - 70px);
+	overflow: hidden;
+  }
+
+  .ps {
+	overflow: hidden !important;
+  }
+
+  .ps > .ps__rail-y, .ps:hover > .ps__rail-y {
+	opacity: 0;
+	z-index: -1;
+	visibility: hidden;
+  }
+
+  &.open {
+
+	.fixed-sidebar-left {
+	  transition: transform .5s cubic-bezier(.55, 0, .1, 1);
+
+	  &.sidebar--small {
+		transform: translateX(-100%);
+	  }
+
+	  &.sidebar--large {
+		transform: translateX(0);
+		transition-delay: .3s;
+	  }
+	}
+
+	.fixed-sidebar-right {
+	  transition: transform .5s cubic-bezier(.55, 0, .1, 1);
+	  transform: translateX(0);
+	  transition-delay: .3s;
+	}
+  }
+
+  &.right {
+	right: -70px;
+	left: auto;
+	z-index: 20;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+
+	&.open {
+	  z-index: 22;
+	}
+  }
+}
+
+.fixed-sidebar-left {
+  position: absolute;
+  height: 100%;
+  background-color: $white-color;
+  transition: transform .5s cubic-bezier(.55, 0, .1, 1);
+  box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+  min-height: 1000vh;
+
+  &.sidebar--small {
+	width: 70px;
+	transition-delay: .3s;
+
+	.left-menu li {
+	  text-align: center;
+	  list-style: none;
+
+	  a {
+		padding: 14px 0;
+		display: block;
+
+		.universal-olympus-icon {
+		  margin-right: 0;
+		}
+
+		&.side-menu-open {
+		  display: flex;
+		  padding: 0;
+
+		  &:hover {
+			i {
+			  color: $white-color;
+			}
+		  }
+		}
+	  }
+	}
+  }
+
+  &.sidebar--large {
+	width: 270px;
+	transform: translateX(-100%);
+  }
+}
+
+.fixed-sidebar-right {
+  position: absolute;
+  z-index: 20;
+  right: 0;
+  top: 70px;
+  bottom: 0;
+  background-color: $white-color;
+  transition: transform .5s cubic-bezier(.55, 0, .1, 1);
+  box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+  border-left: 1px solid $border-color;
+  width: 270px;
+  transform: translateX(100%);
+  min-height: 1000vh;
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+
+  .author-page {
+	padding: 15px 20px 0;
+	margin-left: 0;
+
+	.author-thumb {
+	  position: relative;
+	}
+
+	.author-title {
+	  color: #515365;
+	  color: var(--heading-font-color);
+
+	  &:hover {
+		color: $primary-color;
+		color: var(--primary-accent-color);
+	  }
+	}
+  }
+
+  .account-settings {
+	padding: 0 25px 15px;
+
+	.account-settings i {
+	  font-size: 16px;
+	}
+
+	a {
+	  padding: 10px 0;
+	}
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: $white-color;
+
+  img {
+	transition: opacity .3s ease;
+  }
+
+  .logo-title {
+	text-transform: uppercase;
+	margin: 0;
+	color: inherit;
+	transition: all .3s ease;
+  }
+
+  .sub-title {
+	font-size: 9px;
+	text-transform: uppercase;
+  }
+
+  &:hover {
+	color: $white-color;
+  }
+
+  .img-wrap {
+	position: relative;
+  }
+}
+
+.left-menu {
+  padding: 10px 0 20px 0;
+
+  .left-menu-title {
+	font-weight: 500;
+	transition: inherit;
+  }
+
+  .universal-olympus-icon {
+	margin-right: 10px;
+	transition: inherit;
+
+	* {
+	  fill: currentColor;
+	}
+  }
+
+  .no-menu-box {
+	padding: 16px 25px;
+
+	a {
+	  display: inline;
+	  padding: initial;
+	  color: $primary-color;
+	  color: var(--primary-accent-color);
+	}
+  }
+
+  a {
+	padding: 15px 0 15px 25px;
+	display: inline-flex;
+	align-items: center;
+	color: #9a9fbf;
+	color: var(--icon-color);
+
+	& > span {
+	  display: inline-flex;
+	}
+
+	&:hover {
+	  color: $primary-color;
+	  color: var(--primary-accent-color);
+
+	  * {
+		color: $primary-color;
+		color: var(--primary-accent-color);
+	  }
+
+	  svg {
+		fill: $primary-color;
+		fill: var(--primary-accent-color);
+
+		* {
+		  fill: $primary-color;
+		  fill: var(--primary-accent-color);
+		}
+	  }
+	}
+  }
+}
+
+.profile-completion {
+  padding: 15px 25px 25px;
+  transition: all .3s ease;
+
+  .skills-item-info {
+	font-size: 14px;
+  }
+}
+
+.accordion-menu {
+  .card-header {
+	padding: 0;
+  }
+
+  .card-header a > .olymp-dropdown-arrow-icon {
+	margin-left: 15px;
+	margin-top: 4px;
+  }
+
+  .card-header {
+
+	svg, i {
+	  margin-top: 0;
+	}
+
+	a {
+	  color: inherit;
+	  font-size: 13px;
+	}
+  }
+}
+
+#notification-panel-bottom {
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: inherit;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease;
+
+  &.anim {
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(200px);
+  }
+
+  .control-block {
+	justify-content: space-evenly;
+	position: relative;
+
+	.control-icon {
+	  margin-top: 0;
+	  position: unset;
+	  min-height: 100%;
+
+	  .label-avatar {
+		right: 1px;
+	  }
+
+	  &:last-child {
+		margin-right: 0;
+	  }
+
+	  .icon-status-wrap {
+		padding: 0 10px;
+
+		i {
+		  display: block;
+		  margin-top: 18px;
+		}
+	  }
+	}
+  }
+
+  .more-dropdown {
+	top: auto;
+	bottom: 100%;
+	left: 15px;
+	width: calc(100vw - 30px);
+  }
+
+  .more-with-triangle:before {
+	display: none;
+  }
+
+  .view-all {
+	border-radius: 0;
+  }
+}
+
+/*------------- Responsive mode styles --------------*/
+
+@media (max-width: 768px) {
+
+  body.has-social-panel-bottom {
+	padding-bottom: 50px;
+  }
+
+  #notification-panel-bottom {
+	opacity: 1;
+	visibility: visible;
+	z-index: 15;
+  }
+
+  .fixed-sidebar.right {
+	visibility: visible;
+	opacity: 1;
+	right: -50px;
+  }
+
+  .side-menu-open {
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	min-height: 50px;
+  }
+
+  .fixed-sidebar .mCustomScrollbar {
+	max-height: calc(100vh - 80px);
+  }
+
+  .fixed-sidebar-left.sidebar--small {
+	display: none;
+  }
+
+  .fixed-sidebar {
+	width: 50px;
+  }
+
+  .fixed-sidebar-left {
+	min-height: unset;
+	height: calc(100vh - 50px);
+  }
+
+  .fixed-sidebar.left {
+	position: absolute;
+  }
+
+  .fixed-sidebar-right {
+	top: 50px;
+	opacity: 1;
+	visibility: visible;
+	display: block;
+	min-height: unset;
+	height: calc(100vh - 50px);
+  }
+
+  .left-menu .universal-olympus-icon {
+	margin-right: 15px;
+  }
+
+  .fixed-sidebar .logo {
+	height: 50px;
+	text-align: center;
+  }
+
+  .left-menu {
+	padding: 0;
+
+	a {
+	  padding: 15px 0 15px 15px;
+	}
+  }
+}

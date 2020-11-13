@@ -1,0 +1,54 @@
+/*------------- #COUNTERS --------------*/
+
+
+.crumina-counter-item {
+  text-align: center;
+  position: relative;
+
+  .element-icon{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .counter-numbers {
+    font-size: 54px;
+    line-height: 1;
+
+    i {
+      font-size: 44px;
+	  vertical-align: top;
+    }
+  }
+
+  .counter-title {
+    margin: 20px 0 0;
+    line-height: 1.1;
+  }
+
+  .units {
+    display: inline-block;
+
+    div {
+      color: $primary-color;
+      color: var(--primary-accent-color);
+      display: inline-block;
+    }
+  }
+}
+
+
+/*================= Responsive Mode ============*/
+
+@media (max-width: 1200px) {
+
+  .crumina-counter-item {
+    margin-bottom: 40px;
+  }
+
+  .crumina-counter-item .counter-numbers {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+
+

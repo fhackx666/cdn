@@ -1,0 +1,90 @@
+/*------------- #SLIDERS --------------*/
+
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.swiper-pagination-bullet {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: $white-color;
+  margin: auto 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .3s ease;
+  border: 2px solid #d9dbe7;
+
+  &.swiper-pagination-bullet-active {
+    background-color: $primary-color;
+	background-color: var(--primary-accent-color);
+	border-color: transparent;
+  }
+}
+
+.pagination-blue {
+  .page-link:focus, .page-link:hover {
+    background-color: $blue;
+    border-color: $blue;
+    background-color: var(--secondary-accent-color);
+    border-color: var(--secondary-accent-color);
+  }
+
+  .page-link.active {
+    background-color: $blue;
+    border-color: $blue;
+    background-color: var(--secondary-accent-color);
+    border-color: var(--secondary-accent-color);
+    color: $white-color;
+  }
+
+  .swiper-pagination-bullet {
+    &.swiper-pagination-bullet-active {
+      background-color: $blue;
+      background-color: var(--secondary-accent-color);
+    }
+  }
+}
+
+.swiper-pagination {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.pagination-bottom {
+  padding-bottom: 55px;
+
+  .swiper-pagination {
+    bottom: 15px;
+  }
+}
+
+.btn-next, .btn-prev, .btn-next-without, .btn-prev-without {
+  position: absolute;
+  cursor: pointer;
+  width: 10px;
+  height: 18px;
+  display: block;
+  z-index: 10;
+  transition: all .2s ease-in;
+  fill: $white-color;
+  stroke: inherit;
+  top: 50%;
+  transform: translate(0, -50%);
+
+  &:hover {
+    fill: $primary-color;
+    fill: var(--primary-accent-color);
+  }
+}
+
+.btn-next, .btn-next-without {
+  right: 40px;
+}
+
+.btn-prev, .btn-prev-without {
+  left: 40px;
+}

@@ -1,0 +1,83 @@
+# Translation of Plugins - AMP - Stable (latest release) in English (Australia)
+# This file is distributed under the same license as the Plugins - AMP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-20 05:58:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_AU\n"
+"Project-Id-Version: Plugins - AMP - Stable (latest release)\n"
+
+#. translators: %s is sanitizer class
+#: includes/templates/class-amp-content-sanitizer.php:83
+msgid "Sanitizer (%s) class does not exist"
+msgstr "Sanitiser (%s) class does not exist"
+
+#. translators: %s: list of tags.
+#: templates/meta-taxonomy.php:44
+msgid "Tags: %s"
+msgstr "Tags: %s"
+
+#. translators: %s: list of categories.
+#: templates/meta-taxonomy.php:27
+msgid "Categories: %s"
+msgstr "Categories: %s"
+
+#: templates/footer.php:24
+msgid "Back to top"
+msgstr "Back to top"
+
+#: includes/settings/class-amp-customizer-design-settings.php:292
+msgid "Dark"
+msgstr "Dark"
+
+#: includes/settings/class-amp-customizer-design-settings.php:291
+msgid "Light"
+msgstr "Light"
+
+#: includes/settings/class-amp-customizer-design-settings.php:168
+msgid "Color Scheme"
+msgstr "Colour Scheme"
+
+#: includes/settings/class-amp-customizer-design-settings.php:156
+msgid "Header Background & Link Color"
+msgstr "Header Background & Link Colour"
+
+#: includes/settings/class-amp-customizer-design-settings.php:142
+msgid "Header Text Color"
+msgstr "Header Text Colour"
+
+#: includes/settings/class-amp-customizer-design-settings.php:130
+msgid "Design"
+msgstr "Design"
+
+#: includes/templates/class-amp-post-template.php:338
+msgid "View Comments"
+msgstr "View Comments"
+
+#: includes/templates/class-amp-post-template.php:337
+msgid "Leave a Comment"
+msgstr "Leave a Comment"
+
+#. Plugin Name of the plugin
+#: src/Admin/SiteHealth.php:134 src/Admin/SiteHealth.php:175
+#: src/Admin/SiteHealth.php:248 src/Admin/SiteHealth.php:315
+#: src/Admin/SiteHealth.php:380 src/Admin/SiteHealth.php:399
+#: src/Admin/OptionsMenu.php:143 includes/templates/amp-paired-browsing.php:30
+#: includes/admin/functions.php:126 includes/admin/functions.php:127
+#: includes/admin/class-amp-admin-pointers.php:66
+#: includes/admin/class-amp-template-customizer.php:247
+#: includes/validation/class-amp-validation-manager.php:379
+#: includes/amp-helper-functions.php:1931
+msgid "AMP"
+msgstr "AMP"
+
+#: templates/meta-taxonomy.php:21 templates/meta-taxonomy.php:35
+#: back-compat/templates-v0-3/meta-taxonomy.php:8
+#: back-compat/templates-v0-3/meta-taxonomy.php:17
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "

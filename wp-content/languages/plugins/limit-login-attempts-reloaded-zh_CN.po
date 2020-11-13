@@ -1,0 +1,304 @@
+# Translation of Plugins - Limit Login Attempts Reloaded - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Limit Login Attempts Reloaded - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-30 17:17:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Limit Login Attempts Reloaded - Stable (latest release)\n"
+
+#: views/tab-dashboard.php:77
+msgid "Deny Rules"
+msgstr "拒绝规则"
+
+#: views/tab-dashboard.php:63
+msgid "Allow Rules"
+msgstr "允许规则"
+
+#: views/options-page.php:16
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: views/tab-dashboard.php:91 views/tab-settings.php:144
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: views/tab-settings.php:22
+msgid "General Settings"
+msgstr "常规设置"
+
+#: core/LimitLoginAttempts.php:1340 core/LimitLoginAttempts.php:1384
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#. Description of the plugin
+msgid "Limit the rate of login attempts for each IP address."
+msgstr "限制每个IP地址的登录尝试次数。"
+
+#: core/LimitLoginAttempts.php:1503
+msgid "Leave a review"
+msgstr "留下评论"
+
+#: core/LimitLoginAttempts.php:1502
+msgid "Maybe later"
+msgstr "稍后再说"
+
+#: core/LimitLoginAttempts.php:1501
+msgid "Don't show again"
+msgstr "请勿再次显示"
+
+#: core/LimitLoginAttempts.php:1498
+msgid "We would really like to hear your feedback about the plugin! Please take a couple minutes to write a few words <a href=\"https://wordpress.org/support/plugin/limit-login-attempts-reloaded/reviews/#new-post\" target=\"_blank\">here</a>. Thank you!"
+msgstr "我们真的很想听听您对插件的反馈！ 请花几分钟写几句话在<a href=\"https://wordpress.org/support/plugin/limit-login-attempts-reloaded/reviews/#new-post\" target=\"_blank\">此处</a>。 谢谢！"
+
+#: views/tab-debug.php:40
+msgid "Copy the contents of the window and provide to support."
+msgstr "复制窗口的内容并提供支持。"
+
+#: views/options-page.php:18
+msgid "Debug"
+msgstr "调试"
+
+#: views/options-page.php:17
+msgid "Settings"
+msgstr "设置"
+
+#: views/tab-debug.php:37
+msgid "Debug info"
+msgstr "调试信息"
+
+#: views/tab-settings.php:117
+msgid "Specify the origins you trust in order of priority, separated by commas. We strongly recommend that you <b>do not</b> use anything other than REMOTE_ADDR since other origins can be easily faked. Examples: HTTP_X_FORWARDED_FOR, HTTP_CF_CONNECTING_IP, HTTP_X_SUCURI_CLIENTIP"
+msgstr "按优先级顺序指定您信任的来源，以逗号分隔。我们强烈建议您<b>请勿</b>使用REMOTE_ADDR以外的其他任何东西，因为其他来源很容易被伪造。示例：HTTP_X_FORWARDED_FOR，HTTP_CF_CONNECTING_IP，HTTP_X_SUCURI_CLIENTIP"
+
+#: views/tab-settings.php:113
+msgid "Trusted IP Origins"
+msgstr "可信的IP来源"
+
+#: views/tab-settings.php:73
+msgid "after"
+msgstr "后"
+
+#: views/tab-settings.php:70
+msgid "Email to"
+msgstr "发邮件给"
+
+#: core/LimitLoginAttempts.php:1318
+msgid "The \""
+msgstr "The \""
+
+#: core/LimitLoginAttempts.php:1036
+msgid "<strong>ERROR</strong>: Incorrect email address or password."
+msgstr "<strong>错误</strong>：错误的电子邮件地址或密码。"
+
+#. Author URI of the plugin
+msgid "https://wpchef.org"
+msgstr "https://wpchef.org"
+
+#. Author of the plugin
+msgid "WPChef"
+msgstr "WPChef"
+
+#: views/tab-settings.php:57
+msgid "this makes the plugin <a href=\"https://gdpr-info.eu/\" target=\"_blank\" >GDPR</a> compliant"
+msgstr "这使得插件 <a href=\"https://gdpr-info.eu/\" target=\"_blank\" >GDPR</a> 兼容"
+
+#: views/tab-settings.php:54
+msgid "GDPR compliance"
+msgstr "GDPR合规性"
+
+#: views/tab-dashboard.php:66 views/tab-dashboard.php:80
+msgid "One IP or IP range (1.2.3.4-5.6.7.8) per line"
+msgstr "每行一个IP或IP范围（1.2.3.4-5.6.7.8）"
+
+#. Plugin Name of the plugin
+#: views/options-page.php:13
+msgid "Limit Login Attempts Reloaded"
+msgstr "Limit Login Attempts Reloaded"
+
+#: views/tab-dashboard.php:118
+msgid "Gateway"
+msgstr "网关"
+
+#: views/tab-dashboard.php:117
+msgid "Tried to log in as"
+msgstr "试图登录用户"
+
+#: views/tab-dashboard.php:116
+msgctxt "Internet address"
+msgid "IP"
+msgstr "IP"
+
+#: views/tab-dashboard.php:115
+msgid "Date"
+msgstr "日期"
+
+#: views/tab-dashboard.php:107
+msgid "Clear Log"
+msgstr "清除日志"
+
+#: views/tab-dashboard.php:70 views/tab-dashboard.php:84
+msgid "One Username per line"
+msgstr "每行一个用户名"
+
+#: views/tab-settings.php:76
+msgid "lockouts"
+msgstr "拦截"
+
+#: views/tab-dashboard.php:102
+msgid "Lockout log"
+msgstr "拦截日志"
+
+#: views/tab-settings.php:62
+msgid "Notify on lockout"
+msgstr "拦截时通知"
+
+#: views/tab-settings.php:108
+msgid "hours until retries are reset"
+msgstr "小时, 直到重试复位"
+
+#: views/tab-settings.php:105
+msgid "hours"
+msgstr "小时"
+
+#: views/tab-settings.php:102
+msgid "lockouts increase lockout time to"
+msgstr "拦截增加锁定时间"
+
+#: views/tab-settings.php:98
+msgid "minutes lockout"
+msgstr "分钟拦截"
+
+#: views/tab-settings.php:94
+msgid "allowed retries"
+msgstr "允许重试"
+
+#: views/tab-settings.php:89
+msgid "Lockout"
+msgstr "拦截"
+
+#: views/tab-settings.php:32
+msgid "Use global settings"
+msgstr "使用全局设置"
+
+#: views/tab-settings.php:30
+msgid "If disabled, the global settings will be forcibly applied to the entire network."
+msgstr "如果禁用，全局设置将强制应用到整个网络。"
+
+#: views/tab-settings.php:29
+msgid "Let network sites use their own settings"
+msgstr "让网站使用自己的设置"
+
+#: views/tab-dashboard.php:51
+msgid "%d IP is currently blocked from trying to log in"
+msgstr "%d IP 目前阻止试图登录"
+
+#: views/tab-dashboard.php:49
+msgid "Restore Lockouts"
+msgstr "恢复拦截"
+
+#: views/tab-dashboard.php:46
+msgid "Active lockouts"
+msgstr "活跃拦截"
+
+#: views/tab-dashboard.php:39
+msgid "No lockouts yet"
+msgstr "还没有拦截"
+
+#: views/tab-dashboard.php:37
+msgid "%d lockout since last reset"
+msgid_plural "%d lockouts since last reset"
+msgstr[0] "%d 次拦截自上次复位后"
+
+#: views/tab-dashboard.php:35
+msgid "Reset Counter"
+msgstr "重置计数器"
+
+#: views/tab-dashboard.php:31
+msgid "Total lockouts"
+msgstr "拦截合计"
+
+#: views/tab-dashboard.php:26
+msgid "Statistics"
+msgstr "统计"
+
+#: core/LimitLoginAttempts.php:1284
+msgid "Cleared current lockouts"
+msgstr "清除当前拦截"
+
+#: core/LimitLoginAttempts.php:1277
+msgid "Reset lockout count"
+msgstr "重置锁定计数"
+
+#: core/LimitLoginAttempts.php:1270
+msgid "Cleared IP log"
+msgstr "清除 IP 日志"
+
+#: core/LimitLoginAttempts.php:1063
+msgid "WC Error"
+msgstr "WC 错误"
+
+#: core/LimitLoginAttempts.php:1038
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr "<strong>错误</strong>: 不正确的用户名或密码。"
+
+#: core/LimitLoginAttempts.php:958
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] "%d 分钟请再试一次。"
+
+#: core/LimitLoginAttempts.php:956
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] "%d 小时后请再试一次。"
+
+#: core/LimitLoginAttempts.php:948
+msgid "Please try again later."
+msgstr "请稍后再试。"
+
+#: core/LimitLoginAttempts.php:940
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr "<strong>错误</strong>: 太多的失败的登录尝试。"
+
+#: core/LimitLoginAttempts.php:714
+msgid "IP was blocked for %s"
+msgstr "IP 已被阻止 %s"
+
+#: core/LimitLoginAttempts.php:712
+msgid "IP was NOT blocked because of external whitelist."
+msgstr "IP 并未阻止, 因为外部的白名单。"
+
+#: core/LimitLoginAttempts.php:708
+msgid "Last user attempted: %s"
+msgstr "最后用户尝试: %s"
+
+#: core/LimitLoginAttempts.php:704
+msgid "%d failed login attempts (%d lockout(s)) from IP: %s"
+msgstr "%d 失败的登录尝试 (%d 拦截)来自 IP: %s"
+
+#: core/LimitLoginAttempts.php:699
+msgid "[%s] Too many failed login attempts"
+msgstr "[%s] 太多的失败登录尝试"
+
+#: core/LimitLoginAttempts.php:695
+msgid "[%s] Failed login attempts from whitelisted IP"
+msgstr "[%s] 失败登录尝试来自白名单 IP"
+
+#: core/LimitLoginAttempts.php:688
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d 分钟"
+
+#: core/LimitLoginAttempts.php:682
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d 小时"
+
+#: core/LimitLoginAttempts.php:280 core/LimitLoginAttempts.php:1122
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] "剩余 <strong>%d</strong> 次尝试。"

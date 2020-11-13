@@ -1,0 +1,77 @@
+/*------------- #NEWS-FEED-Masonry --------------*/
+
+
+.cat-list-bg-style {
+  margin: 50px 0 46px;
+  padding: 0;
+  list-style: none;
+
+  &.cat-list__item-bg-blue {
+
+	.cat-list__item {
+	  display: inline-block;
+
+	  a {
+
+		&:hover {
+		  background-color: $blue;
+		  background-color: var(--secondary-accent-color);
+		}
+	  }
+
+	  &.active {
+		background-color: $blue;
+		background-color: var(--secondary-accent-color);
+	  }
+	}
+  }
+}
+
+.cat-list__item {
+  display: inline-block;
+  background-color: #dee4ec;
+  margin: 0 10px;
+  border-radius: 30px;
+  overflow: hidden;
+
+  a {
+	font-size: 14px;
+	color: $body-font-color;
+	color: var(--body-font-color);
+	position: relative;
+	text-transform: uppercase;
+	transition: all .3s ease;
+	padding: 8px 20px;
+	display: block;
+
+	&:hover {
+	  color: $white-color;
+	  background-color: $primary-color;
+	  background-color: var(--primary-accent-color);
+	}
+  }
+
+  &.active {
+	background-color: $primary-color;
+	background-color: var(--primary-accent-color);
+
+	a {
+	  color: $white-color;
+	}
+  }
+}
+
+
+/*================= Responsive Mode ============*/
+
+
+@media(max-width: 768px) {
+  .cat-list-bg-style {
+	margin: 30px 0;
+  }
+
+  .cat-list-bg-style.cat-list__item-bg-blue .cat-list__item {
+	display: block;
+	margin-top: 10px;
+  }
+}
