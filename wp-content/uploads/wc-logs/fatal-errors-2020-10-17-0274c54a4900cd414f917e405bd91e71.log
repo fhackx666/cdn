@@ -1,0 +1,22 @@
+2020-10-17T10:21:40+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-includes/class-wp-customize-nav-menus.php 中第 804 行的 Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+
+2020-10-17T13:07:48+00:00 CRITICAL Cannot redeclare my_wp_get_nav_menu_items() (previously declared in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus-child/functions.php:21) in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus/functions.php on line 23
+
+2020-10-17T13:07:54+00:00 CRITICAL Cannot redeclare my_wp_get_nav_menu_items() (previously declared in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus-child/functions.php:21) in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus/functions.php on line 23
+
+2020-10-17T13:07:56+00:00 CRITICAL Cannot redeclare my_wp_get_nav_menu_items() (previously declared in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus-child/functions.php:21) in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus/functions.php on line 23
+
+2020-10-17T13:08:14+00:00 CRITICAL Cannot redeclare my_wp_get_nav_menu_items() (previously declared in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus-child/functions.php:21) in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus/functions.php on line 23
+
+2020-10-17T13:08:20+00:00 CRITICAL Cannot redeclare my_wp_get_nav_menu_items() (previously declared in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus-child/functions.php:21) in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus/functions.php on line 23
+
+2020-10-17T13:08:40+00:00 CRITICAL Cannot redeclare my_wp_get_nav_menu_items() (previously declared in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus-child/functions.php:21) in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus/functions.php on line 23
+
+2020-10-17T13:08:44+00:00 CRITICAL Cannot redeclare my_wp_get_nav_menu_items() (previously declared in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus-child/functions.php:21) in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus/functions.php on line 23
+
+2020-10-17T13:08:48+00:00 CRITICAL Cannot redeclare my_wp_get_nav_menu_items() (previously declared in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus-child/functions.php:21) in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus/functions.php on line 23
+
+2020-10-17T13:08:52+00:00 CRITICAL Cannot redeclare my_wp_get_nav_menu_items() (previously declared in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus-child/functions.php:21) in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus/functions.php on line 23
+
+2020-10-17T13:08:56+00:00 CRITICAL Cannot redeclare my_wp_get_nav_menu_items() (previously declared in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus-child/functions.php:21) in /home/tkz08cqtn9ox/public_html/wp-content/themes/olympus/functions.php on line 23
+

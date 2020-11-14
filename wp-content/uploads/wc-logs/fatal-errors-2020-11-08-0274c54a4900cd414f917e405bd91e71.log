@@ -1,0 +1,60 @@
+2020-11-08T08:49:44+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/wpjam-basic/admin/includes/class-wpjam-page-action.php 中第 39 行的 Uncaught Error: Call to undefined method WP_Error::callback() in /home/tkz08cqtn9ox/public_html/wp-content/plugins/wpjam-basic/admin/includes/class-wpjam-page-action.php:39
+Stack trace:
+#0 /home/tkz08cqtn9ox/public_html/wp-includes/class-wp-hook.php(287): WPJAM_Page_Action::ajax_response('')
+#1 /home/tkz08cqtn9ox/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/tkz08cqtn9ox/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/tkz08cqtn9ox/public_html/wp-admin/admin-ajax.php(176): do_action('wp_ajax_wpjam-p...')
+#4 {main}
+  thrown
+
+2020-11-08T08:56:48+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/wpjam-basic/admin/includes/class-wpjam-page-action.php 中第 39 行的 Uncaught Error: Call to undefined method WP_Error::callback() in /home/tkz08cqtn9ox/public_html/wp-content/plugins/wpjam-basic/admin/includes/class-wpjam-page-action.php:39
+Stack trace:
+#0 /home/tkz08cqtn9ox/public_html/wp-includes/class-wp-hook.php(287): WPJAM_Page_Action::ajax_response('')
+#1 /home/tkz08cqtn9ox/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/tkz08cqtn9ox/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/tkz08cqtn9ox/public_html/wp-admin/admin-ajax.php(176): do_action('wp_ajax_wpjam-p...')
+#4 {main}
+  thrown
+
+2020-11-08T09:01:47+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/wpjam-basic/admin/includes/class-wpjam-page-action.php 中第 39 行的 Uncaught Error: Call to undefined method WP_Error::callback() in /home/tkz08cqtn9ox/public_html/wp-content/plugins/wpjam-basic/admin/includes/class-wpjam-page-action.php:39
+Stack trace:
+#0 /home/tkz08cqtn9ox/public_html/wp-includes/class-wp-hook.php(287): WPJAM_Page_Action::ajax_response('')
+#1 /home/tkz08cqtn9ox/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/tkz08cqtn9ox/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/tkz08cqtn9ox/public_html/wp-admin/admin-ajax.php(176): do_action('wp_ajax_wpjam-p...')
+#4 {main}
+  thrown
+
+2020-11-08T09:18:23+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/wpjam-basic/admin/includes/class-wpjam-page-action.php 中第 39 行的 Uncaught Error: Call to undefined method WP_Error::callback() in /home/tkz08cqtn9ox/public_html/wp-content/plugins/wpjam-basic/admin/includes/class-wpjam-page-action.php:39
+Stack trace:
+#0 /home/tkz08cqtn9ox/public_html/wp-includes/class-wp-hook.php(287): WPJAM_Page_Action::ajax_response('')
+#1 /home/tkz08cqtn9ox/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/tkz08cqtn9ox/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/tkz08cqtn9ox/public_html/wp-admin/admin-ajax.php(176): do_action('wp_ajax_wpjam-p...')
+#4 {main}
+  thrown
+
+2020-11-08T11:08:13+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/really-static/main.php 中第 2719 行的 Redefinition of parameter $pageposts
+
+2020-11-08T11:08:21+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/really-static/main.php 中第 2719 行的 Redefinition of parameter $pageposts
+
+2020-11-08T11:08:23+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/really-static/main.php 中第 2719 行的 Redefinition of parameter $pageposts
+
+2020-11-08T11:46:43+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/really-static/main.php 中第 2719 行的 Redefinition of parameter $pageposts
+
+2020-11-08T11:46:50+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/really-static/main.php 中第 2719 行的 Redefinition of parameter $pageposts
+
+2020-11-08T11:46:56+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/really-static/main.php 中第 2719 行的 Redefinition of parameter $pageposts
+
+2020-11-08T12:10:20+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/really-static/main.php 中第 2719 行的 Redefinition of parameter $pageposts
+
+2020-11-08T12:10:26+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/really-static/main.php 中第 2719 行的 Redefinition of parameter $pageposts
+
+2020-11-08T12:10:28+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/really-static/main.php 中第 2719 行的 Redefinition of parameter $pageposts
+
+2020-11-08T13:09:15+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/db-cache-reloaded-fix/db-cache-reloaded.php 中第 91 行的 syntax error, unexpected 'new' (T_NEW)
+
+2020-11-08T13:09:27+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/db-cache-reloaded-fix/db-cache-reloaded.php 中第 91 行的 syntax error, unexpected 'new' (T_NEW)
+
+2020-11-08T13:09:30+00:00 CRITICAL /home/tkz08cqtn9ox/public_html/wp-content/plugins/db-cache-reloaded-fix/db-cache-reloaded.php 中第 91 行的 syntax error, unexpected 'new' (T_NEW)
+
