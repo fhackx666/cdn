@@ -1,0 +1,11 @@
+[24-Oct-2020 08:38:59 UTC] PHP Warning:  require(/home/tkz08cqtn9ox/public_html/zh/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php): failed to open stream: No such file or directory in /home/tkz08cqtn9ox/public_html/zh/wp-settings.php on line 252
+[24-Oct-2020 08:38:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/tkz08cqtn9ox/public_html/zh/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/tkz08cqtn9ox/public_html/zh/wp-settings.php on line 252
+[24-Oct-2020 08:38:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/tkz08cqtn9ox/public_html/zh/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/tkz08cqtn9ox/public_html/zh/wp-settings.php on line 252
+[24-Oct-2020 08:38:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/tkz08cqtn9ox/public_html/zh/deleteme.wpyduj.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tkz08cqtn9ox/public_html/zh/deleteme.wpyduj.php on line 16
+[24-Oct-2020 08:38:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/tkz08cqtn9ox/public_html/zh/deleteme.wpo6ri.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/tkz08cqtn9ox/public_html/zh/deleteme.wpo6ri.php on line 16
